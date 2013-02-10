@@ -137,6 +137,11 @@ ul.posts {
         border: 0;
       }
 
+blockquote {
+  color: #586e75;
+  margin-left: 2em;
+  margin-right: 2em;
+}
 /*****************************************************************************/
 /*
 /* Posts
