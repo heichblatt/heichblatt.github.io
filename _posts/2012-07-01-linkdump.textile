@@ -10,7 +10,7 @@ tags: [linkdump]
 * The Wall Street Journal has a "nice article":http://online.wsj.com/article/SB10001424052702303379204577474953586383604.html about what they inhibitedly[1] call "boss-free".
 * "Martin Haase":http://en.wikipedia.org/wiki/Martin_Haase writes about the German word "Tauschbörse":http://neusprech.org/tauschboerse/
 * "Metasploit":http://en.wikipedia.org/wiki/Metasploit_Project has a "blog":https://community.rapid7.com/community/metasploit/blog.
-* A website, that shows Facebook status updates of people unable to handle their own privacy settings, "filtered by compromising keywords":http://www.weknowwhatyouredoing.com/. I honestly do not know what to think about it.
+* A website that shows Facebook status updates of people unable to handle their own privacy settings, "filtered by compromising keywords":http://www.weknowwhatyouredoing.com/. I honestly do not know what to think about it.
 * "Ars Technica: Minitel goes down":http://arstechnica.com/gadgets/2012/06/minitel-frances-precursor-to-the-web-to-go-dark-on-june-30/. Yesterdays future.
 * "Kardashians Get 40 Times More News Coverage than Ocean Acidification":http://ecowatch.org/2012/kardashians/
 * "McSweeney's: Open letter to people who take pictures of food with Instagram":http://www.mcsweeneys.net/articles/an-open-letter-to-people-who-take-pictures-of-food-with-instagram
