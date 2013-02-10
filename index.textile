@@ -1,11 +1,11 @@
 ---
 layout: page
-title: heichblatt
-tagline: Sysops and English Studies
+title: Welcome
+#tagline: Sysops and English Studies
 ---
 {% include JB/setup %}
 
-I study "English Studies at Leipzig University":http://uni-leipzig.de/~angl and work as a sysadmin. There is a "newsfeed":/atom.xml, you know what to do.
+I study "British Studies at Leipzig University":http://uni-leipzig.de/~angl and work as a systems administrator. There is a "newsfeed":/atom.xml, you know what to do.
 
 <ul class="posts">
   {% for post in site.posts %}
