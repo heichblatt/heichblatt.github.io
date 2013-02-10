@@ -1,0 +1,29 @@
+---
+layout: post
+title: "Linkdump"
+tagline: "They see me dumping, they linking"
+category: personal
+tags: [linkdump]
+---
+{% include JB/setup %}
+* Some interesting thoughts in "A New Era for Worker Ownership?":https://www.commondreams.org/view/2012/07/02-8
+* "This":http://www.minimallyminimal.com/blog/2012/7/3/the-next-microsoft.html made me wonder how much (re-)branding can change our perception. Nice work though.
+* As soon as I have some time on my hands, "Christopher Soghoian's doctoral thesis":http://files.dubfire.net/csoghoian-dissertation-final-version-7-18.pdf is top of the list.
+
+bq. Telecommunications carriers and service providers now play an essential role in facilitating modern surveillance by law enforcement agencies. The police merely select the individuals to be monitored, while the actual surveillance is performed by third parties: often the same email providers, search engines and telephone companies to whom consumers have entrusted their private data. Assisting Big Brother has become a routine part of business
+
+* "Caterina Fake's blog post":http://caterina.net/2011/03/15/fomo-and-social-media/ introduced me to the concept of "FOMO":http://www.urbandictionary.com/define.php?term=fomo
+
+bq. “FOMO” stands for “Fear of Missing Out” and it’s what happens everywhere on a typical Saturday night, when you’re trying to decide if you should stay in, or muster the energy to go to the party.
+
+* A "blog post":https://bytbox.net//blog/2012/08/leaving-github.html that outlines why GitHub is merely built on top of Git and why that is a bad thing.
+
+bq. Protocols last a long time; ultimately, services like github and sourceforge are just fads, with very little (I think no) added value
+
+* In case you are interested in organizational theory (and who isn't?), there is "this wet dream of a blog about it":http://orgtheory.wordpress.com/.
+* Anil Dash about "The Web we lost":http://dashes.com/anil/2012/12/the-web-we-lost.html and concepts like appification, the sickness that is advertisement and why communities on the net are becoming increasingly gated.
+* Some "thoughts about":http://jordanburgess.com/post/35606480702/why-im-starting-a-blog publicly speaking your mind in the form of a blog.
+
+bq. I understand that anything I write now opens me up to criticism, contradiction and mockery (mainly mockery) now and in the future.
+
+* Vivek Haldar "reviews and likes":http://blog.vivekhaldar.com/post/40460692580/so-good-they-cant-ignore-you-review Cal Newports book "So good they can't ignore you":http://www.calnewport.com/books/sogood.html (Video of Newport explaining his thesis "here":www.youtube.com/watch?v=qwOdU02SE0w)

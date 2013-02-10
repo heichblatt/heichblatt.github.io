@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Hope"
+tagline: ""
+category: personal 
+tags:
+- comment
+---
+{% include JB/setup %}
+I am always utterly relieved when I read about people like "Moxie Marlinspike":http://thoughtcrime.org/.
+
+bq. But I also secretly hate technology, am partially horrified with the direction "geek" culture has gone, and have little affection for the weird entrepreneur scene that's currently devouring the Bay Area. 
+In general, I hope to contribute to a world where we value skills and relationships over careers and money, where we know better than to trust cops or politicians, and where we're passionate about building and creating things in a self-motivated and self-directed way.

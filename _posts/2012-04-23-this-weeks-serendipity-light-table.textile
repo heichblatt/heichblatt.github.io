@@ -1,0 +1,10 @@
+---
+layout: post
+title: "This weeks serendipity: Light Table"
+description: "A nice looking concept, what's not to like?"
+category: personal
+tags:
+- serendipityoftheweek
+- tech
+---
+I'm "not a developer":https://xkcd.com/705, yet "Chris Granger's Light Table":http://www.chris-granger.com/2012/04/12/light-table---a-new-ide-concept looks interesting and the ideas behind seem to be reasonable. I recommend the "Hacker News discussion":https://news.ycombinator.com/item?id=3836978 and the "Kickstarter":http://www.kickstarter.com/projects/ibdknox/light-table/posts for it has already passed it's goal.
