@@ -26,4 +26,4 @@ bq. Protocols last a long time; ultimately, services like github and sourceforge
 
 bq. I understand that anything I write now opens me up to criticism, contradiction and mockery (mainly mockery) now and in the future.
 
-* Vivek Haldar "reviews and likes":http://blog.vivekhaldar.com/post/40460692580/so-good-they-cant-ignore-you-review Cal Newports book "So good they can't ignore you":http://www.calnewport.com/books/sogood.html (Video of Newport explaining his thesis "here":www.youtube.com/watch?v=qwOdU02SE0w)
+* Vivek Haldar "reviews and likes":http://blog.vivekhaldar.com/post/40460692580/so-good-they-cant-ignore-you-review Cal Newports book "So good they can't ignore you":http://www.calnewport.com/books/sogood.html (Video of Newport explaining his theses "here":www.youtube.com/watch?v=qwOdU02SE0w)
