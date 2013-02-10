@@ -1,0 +1,14 @@
+---
+layout: page
+title: About me 
+tagline: Sysops and English Studies
+---
+{% include JB/setup %}
+
+* 2006 - 2009 studied Computer Science at Rostock University and Leipzig University
+* 2009 - studying British Studies at Leipzig University, two term member of the "student's council":http://uni-leipzig.de/~fsranam/
+* worked as sysadmin for several small to medium companies and Leipzig University
+** Linux and BSD Administration, virtualization, migration, diagnostics, security, monitoring, hardware management, incident response
+** Networking, routing, VPNs
+** Source control, documentation
+** Content Management Systems, webdesign
