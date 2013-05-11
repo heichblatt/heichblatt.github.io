@@ -7,6 +7,7 @@ tagline: Sysops and English Studies
 
 * 2006 - 2009 studied Computer Science at Rostock University and Leipzig University
 * 2009 - studying British Studies at Leipzig University, two term member of the "student's council":http://uni-leipzig.de/~fsranam/
+* 2011 semester abroad in Cardiff, UK at University of Wales Institute, Cardiff
 * worked as sysadmin for several small to medium companies and Leipzig University
 ** Linux and BSD Administration, virtualization, migration, diagnostics, security, monitoring, hardware management, incident response
 ** networking, routing, VPN
