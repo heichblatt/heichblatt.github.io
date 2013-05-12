@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bandwith Efficiency nowadays"
+title: "Bandwidth Efficiency nowadays"
 tagline: "Remembering Dial-Up"
 category: personal
 tags:
