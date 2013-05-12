@@ -1,2 +1,2 @@
 deploy:
-	rsync -avh _site/ he.de:public/hanneseichblatt.de
+	rsync --delete -avh _site/ he.de:public/hanneseichblatt.de
