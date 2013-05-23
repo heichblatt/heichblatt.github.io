@@ -16,12 +16,13 @@ Aaron Swartz's "post on the topic":http://www.aaronsw.com/weblog/productivity ha
 bq. my list is programming, writing, thinking, errands, reading, listening, and watching (in that order).
 
 His words have stayed with me over the weeks since I've read them first. I admire their brevity, simplicity and clarity.
+Let's not forget Lars Wirzenius' "GTD for Hackers":http://gtdfh.branchable.com/. It's a well-written description of a GTD implementation, giving a practical introduction to the topic.
 
 h2. Tools I use
 
 * *Redmine* for everything larger than three items or running longer than a week.
 * A *notebook* for errands and quickly write down whatever is thrown at me.
-* *E-mails to myself* for longer ideas when being on the move.
+* *E-mails to myself* for longer ideas when on the move.
 * *Online calendar* for everything that has a concrete date attached to it.
 * *feed2imap* for fetching a selected few RSS feeds and delivering them to a special mailbox.
 * *Instapaper* for postponing interesting articles for later reading when skimming through said mailbox.
