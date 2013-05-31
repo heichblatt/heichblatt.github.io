@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Class taken: English in Project Management"
+description: "I know what I did this summer"
+category: study
+tags:
+- comment
+- ba-thesis
+---
+{% include JB/setup %}
+
