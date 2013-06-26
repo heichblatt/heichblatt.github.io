@@ -1,0 +1,16 @@
+---
+layout: post
+title: "TODO"
+description: "TODO"
+category: study personal TODO
+tags: TODO
+- serendipityoftheweek
+- tech
+- comment
+- linkdump
+- presentation
+- announcement
+- ba-thesis
+---
+{% include JB/setup %}
+TODO
