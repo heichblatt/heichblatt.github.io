@@ -1,0 +1,19 @@
+---
+layout: post
+title: "How to install transmission-remote-gtk on Debian"
+description: "Getting the little helper to play nice"
+category: personal
+tags:
+- tech
+- howto
+---
+{% include JB/setup %}
+For those that use "@transmission-remote-gtk@":https://github.com/ajf8/transmission-remote-gtk to control a "@transmission-daemon@":http://www.transmissionbt.com/ and sorely miss the package in the Debian repos, this will install version 1.1.1 from source.
+
+<pre>
+# apt-get install intltool pkg-config libjson-glib-dev libgtk-3-dev libcurl4-gnutls-dev
+$ wget https://transmission-remote-gtk.googlecode.com/files/transmission-remote-gtk-1.1.1.tar.gz
+$ tar xf transmission-remote-gtk-1.1.1.tar.gz
+$ cd transmission-remote-gtk-1.1.1/
+$ ./configure && make && sudo make install
+</pre>
