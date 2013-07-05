@@ -1,0 +1,23 @@
+---
+layout: post
+title: "MOOCs"
+description: "Or how I learned to spend my time wisely"
+category: study personal
+tags:
+- tech
+- linkdump
+---
+{% include JB/setup %}
+
+Aaron Swartz probably "said it best"http://www.aaronsw.com/weblog/productivity:
+
+bq. First, you have to make the best of each kind of time. And second, you have to try to make your time higher-quality.
+
+There are times when I'm simply not capable of anything that requires substantial amounts of brain power. Everyone has these times when he or she is only able to consume but not produce. That's OK. Most of us resort to entertainment. We can do better.
+
+For some now I have taken online courses or enjoyed educational podcasts. For those speaking German, there are obvious choices:
+
+* "CRE":http://cre.fm/, formerly known as Chaosradio Express, has explained countless concepts and phenomena to me and I consider "Tim Pritlove":https://en.wikipedia.org/wiki/Tim_Pritlove one of my greatest teachers. If you want to have an expert explain his topic to you, this one is for you.
+* "Chaosradio":http://chaosradio.ccc.de/ is similar but less directed towards a single topic, it's like having some friends explain a current topic to you.
+
+In the last few months I have taken to dedicated "MOOC":https://en.wikipedia.org/wiki/Massive_open_online_course (Massive Open Online Course) sites, such as "Coursera":https://www.coursera.org/. I don't care about certifications, but enjoy the high-quality content on there.
