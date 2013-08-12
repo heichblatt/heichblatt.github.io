@@ -15,5 +15,5 @@ For those that use "@transmission-remote-gtk@":https://github.com/ajf8/transmiss
 $ wget https://transmission-remote-gtk.googlecode.com/files/transmission-remote-gtk-1.1.1.tar.gz
 $ tar xf transmission-remote-gtk-1.1.1.tar.gz
 $ cd transmission-remote-gtk-1.1.1/
-$ ./configure && make && sudo make install
+$ ./configure --prefix=/usr/ && make && sudo make install
 </pre>
