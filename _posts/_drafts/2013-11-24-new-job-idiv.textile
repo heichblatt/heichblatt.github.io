@@ -1,0 +1,10 @@
+---
+layout: post
+title: "New Job: iDiv"
+description: "Back in public service."
+category: personal
+tags:
+- announcement
+---
+{% include JB/setup %}
+Recently, I've started to work for the German Centre for Integrative Biodiversity Research (iDiv). It is a joint centre of the universities of Halle, Jena and Leipzig. I am part of a three-person IT support unit. In the near future the institute will consist of nearly 200 employees with challenging problems and tasks. I'm looking forward to interesting Linux-related problems and projects. Looking at the few days already spent there, I don't regret my change of position.
