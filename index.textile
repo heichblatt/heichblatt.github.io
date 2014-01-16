@@ -5,7 +5,7 @@ title: Welcome
 ---
 {% include JB/setup %}
 
-I study "British Studies at Leipzig University":http://uni-leipzig.de/~angl and work as a systems administrator. There is a "newsfeed":/atom.xml, you know what to do.
+I study "British Studies at Leipzig University":http://uni-leipzig.de/~angl and work as a systems administrator. I love Git and you can "browse my repos":http://src.hanneseichblatt.de/public. There is a "newsfeed":/atom.xml, you know what to do.
 
 <ul class="posts">
   {% for post in site.posts %}
