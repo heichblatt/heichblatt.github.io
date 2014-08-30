@@ -1,0 +1,23 @@
+---
+layout: post
+title: "The idea behind Docker is old, the ecosystem behind it is young"
+description: "TODO"
+category: personal
+tags: TODO
+- tech
+- comment
+---
+{% include JB/setup %}
+## Misconceptions we could have avoided equal time wasted
+
+Driven by the current hype surrounding Docker, there have been a couple of articles comparing Docker to KVM or more generally hypervisors and containers. It's a shame for so many intelligent people to waste their precious capacities on what I consider a lame comparison. They compare concepts that aren't even in the same larger category. It is possible to compare those categories or compare members of them, but to me this seems futile as well.
+
+There is, however, a second wave of articles, exemplified by Russell Pavlicek's [Containers vs Hypervisors: The Battle Has Just Begun](http://www.linux.com/news/enterprise/cloud-computing/785769-containers-vs-hypervisors-the-battle-has-just-begun). They dodge said misconception to then compare the two categries mentioned earlier. Personally, I still consider them a mild waste of time due to the topic having been discussed to great lengths in the last decades. This is not a new topic, and especially containerization is not a new concept, cf BSD jails, Solaris Zones, even OpenVZ and chroot to a certain extent. I understand that there are people working in technology today that did not experience the previous containerization waves (I certainly didn't), yet we can't dedicate the mainstream discussion within the interested parts of the technology community to helping newcomers catch up.
+
+One might argue that, while containerization has come into focus before, this time it is driven by a new approach, recent developments in technology and is generally targeted at a new generation of computer scientists, but then the discussion should be focussing on the differences these new developments bring. Otherwise, it seems to me, it may look like the tech community is celebrating something they already had achieved. We already had sandboxing in terms of separated filesystems running on the host kernel. What Docker brought us is integration of newly introduced features of the Linux kernel: cgroups, AuFS, etc into a fresh approach on containerization. Additionally, the people behind it have done many things right in the fields of publicity, quickly integrating community feedback, documentation and responsiveness to their audience. Docker came into existence because new possibilities opened up and amounted to enough potential to trigger what I consider an overhaul of known solutions to known problems, not because we faced new problems.
+
+## My guesses on what might be next for the Docker ecosystem
+
+As far as Docker and it's beautifully blossoming ecosystem is concerned, I think we're way behind the boom phase, heading for the bust part. We've seen this before: new ecosystems around shiny new technologies explode, continue to grow, fragment and balkanize before sinking back into oblivion. The only way around these dangers of the post-peak part of such wave is to consolidate around standard solutions and models, define best practices and maybe even integrate into (naturally evolving) standard stacks.
+
+I think Docker is beyond its peak in terms of publicity. It's here, it's great, we know how to use it. What the ecosystem is currently figuring out are ways to orchestrate Docker containers (cf Fig, Flynn, Dokku, etcd, CoreOS, fleetd). This part of the ecosystem is currently in full bloom and I'm curiously standing by to see what solutions will remain. A great dying is ahead and a lot of dead ends will be abandoned. After that, we are usually left with a handful of field-tested solutions for the handful of broad problem categories the underlying solution is targeting in the first place. Dokku for simple single host scenarios, a fleet of automatically provisioned Docker containers using etcd and fleetd running on OpenStack for more complex scenarios. Even if you can precisely define your needs and the key parameters of your problem, as things stand this will not lead you directly to a go-to solution for similar cases, because at this point there are dozens of them, half of which will be dead by next Friday.
