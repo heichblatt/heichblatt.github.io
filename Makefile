@@ -13,3 +13,6 @@ build-docker:
 
 deploy-docker:
 	docker run -p 80:4000 $(TAG) 
+
+clean:
+	rm -rf ./_site
