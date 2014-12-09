@@ -17,4 +17,4 @@ If you ever find yourself in need of a Docker container based on [Oracle Linux](
     cat /etc/oracle-release
       Oracle Linux Server release 7.0
 
-Obviously, running OL under Docker prevents you fromt taking advantage of the [Unbreakable Enterprise Kernel](http://www.oracle.com/technetwork/server-storage/linux/technologies/uek-overview-2043074.html).
+Obviously, running OL under Docker prevents you from taking advantage of the [Unbreakable Enterprise Kernel](http://www.oracle.com/technetwork/server-storage/linux/technologies/uek-overview-2043074.html).
