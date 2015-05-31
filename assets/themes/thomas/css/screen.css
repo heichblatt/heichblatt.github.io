@@ -68,7 +68,7 @@ ul.posts {
 
   ul.posts span {
     font-family: Monaco, "Courier New", monospace;
-    font-size: 80%;
+    font-size: 90%;
   }
 
 /*****************************************************************************/
@@ -155,10 +155,12 @@ blockquote {
   /* standard */
 
   #post pre {
-    font-size: 85%;
+    font-size: 90%;
     border: 1px solid #ddd;
     background-color: #eef;
     padding: 0 .4em;
+    white-space: pre;
+    overflow: auto;
   }
 
   #post ul,
@@ -169,7 +171,7 @@ blockquote {
   #post code {
     border: 1px solid #ddd;
     background-color: #eef;
-    font-size: 85%;
+    font-size: 90%;
     padding: 0 .2em;
   }
 
