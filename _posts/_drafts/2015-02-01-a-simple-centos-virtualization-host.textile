@@ -1,0 +1,23 @@
+---
+layout: post
+title: "A Simple CentOS Virtualization Host"
+description: "You need this"
+category: personal
+tags:
+- howto
+- tech
+---
+{% include JB/setup %}
+Check if your hardware supports virtualization:
+
+    egrep -c '(vmx|svm)' /proc/cpuinfo
+
+If this returns `0`, your hardware does not support virtualization.
+
+    yum install virtualization-hypervisor
+
+
+
+TODO
+http://jensd.be/?p=207
+http://blog.ktz.me/?p=403
