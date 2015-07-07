@@ -11,6 +11,7 @@ tags: TODO
 - presentation
 - announcement
 - ba-thesis
+- howto
 ---
 {% include JB/setup %}
 TODO
