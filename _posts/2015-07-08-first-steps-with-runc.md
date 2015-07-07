@@ -9,6 +9,12 @@ tags:
 ---
 {% include JB/setup %}
 
+We will take a look at [runC](https://github.com/opencontainers/runc), a tool
+
+> for spawning and running containers according to the OCF specification.
+
+You can read more about the [Open Container Format specification](https://github.com/opencontainers/specs), read [their website](https://runc.io/) or the the [announcement by Docker Inc](https://blog.docker.com/2015/06/runc/).
+
 ## Installation
 
 I use Fedora 22.
@@ -58,8 +64,7 @@ We're in.
 
     sh-4.2#
 
+## Notes
+
+While I was preparing this post, Georg Kunz of CloudGear wrote a [very similar howto](https://www.cloudgear.net/blog/2015/getting-started-with-runc/). And got featured in [Docker Weekly](https://blog.docker.com/docker-weekly-archives/). I think mine has enough difference and additional detail to publish it anyway. See also the [official documentation](https://github.com/opencontainers/runc), which at the time of writing is incomplete.
 Keep in mind that runC is still pre-alpha.
-
-## Note
-
-While I was preparing this post, Georg Kunz of CloudGear wrote it first. And got featured in [Docker Weekly](https://blog.docker.com/docker-weekly-archives/). I think mine has enough difference and additional detail to publish it
