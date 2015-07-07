@@ -13,7 +13,7 @@ We will take a look at [runC](https://github.com/opencontainers/runc), a tool
 
 > for spawning and running containers according to the OCF specification.
 
-You can read more about the [Open Container Format specification](https://github.com/opencontainers/specs), read [their website](https://runc.io/) or the the [announcement by Docker Inc](https://blog.docker.com/2015/06/runc/).
+You can read more about the [Open Container Format specification](https://github.com/opencontainers/specs) at [their website](https://runc.io/) or in the [announcement by Docker, Inc](https://blog.docker.com/2015/06/runc/).
 
 ## Installation
 
