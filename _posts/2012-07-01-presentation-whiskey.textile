@@ -19,4 +19,4 @@ As my devoted followers will undoubtedly have noticed, these thoughts are pretty
 
 *Update 3* The final version is "here":https://github.com/heichblatt/presentation-whiskey/tags.
 
-*Update 4* I am thinking about writing an (optional) essay about the topic, startet "a repo":https://github.com/heichblatt/essay-migrations. We'll see.
+*Update 4* I am thinking about writing an (optional) essay about the topic, started "a repo":https://github.com/heichblatt/essay-migrations. We'll see.
