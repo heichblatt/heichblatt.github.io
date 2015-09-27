@@ -1,4 +1,4 @@
-FROM fedora:20
+FROM fedora:21
 MAINTAINER Hannes Eichblatt <mail@hanneseichblatt.de>
 
 ENV LANGUAGE en_US.UTF-8
