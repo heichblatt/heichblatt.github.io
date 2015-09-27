@@ -9,7 +9,8 @@ clean:
 	rm -rf ./_site
 
 deploy:
-	/bin/docker stop $(JOB_NAME) || true
-	/bin/docker rm $(JOB_NAME) || true
-	/bin/docker run -d --name $(JOB_NAME) -p 4000:4000 $(JOB_NAME):$(BUILD_NUMBER) && \
+	-/bin/docker-compose stop
+	-/bin/docker-compose rm -f
+	/bin/docker-compose build
+	/bin/docker-compose up -d
 	/bin/sudo /bin/systemctl reload httpd
