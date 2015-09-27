@@ -13,4 +13,4 @@ WORKDIR /srv/www
 ADD . /srv/www/
 
 EXPOSE 4000
-CMD ["jekyll", "serve", "--watch"]
+CMD ["jekyll", "serve", "--watch", "--host=0.0.0.0" ]
