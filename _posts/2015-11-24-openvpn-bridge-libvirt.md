@@ -98,7 +98,7 @@ After starting the service (careful, [systemd instantiated units](http://0pointe
     systemctl enable openvpn@libvirt-bridge
     systemctl start openvpn@libvirt-bridge
 
-On your local machine, install OpenVPN, download `ca.crt`, `server.key`, `client.crt` and `client.key` from your server and put them in one directory. On SELinux-enabled machines this directory should be under `~/.cert`. Then we add our `client.conf`, which should look like this:
+On your local machine, install OpenVPN, download `ca.crt`, `client.crt` and `client.key` from your server and put them in one directory. On SELinux-enabled machines this directory should be under `~/.cert`. Then we add our `client.conf`, which should look like this:
 
     client
     remote YOUR_SERVERS_PUBLIC_IP 1194
