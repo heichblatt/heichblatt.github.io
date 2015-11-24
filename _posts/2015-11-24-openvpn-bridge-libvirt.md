@@ -75,7 +75,6 @@ You might have noticed two scripts mentioned in the config: `bridgeup.sh` and `b
     MTU=$3
     /sbin/ip link set "$DEV" up promisc on mtu "$MTU"
     /sbin/brctl addif "$BR" "$DEV"
-
     exit 0
 
 `bridgedown.sh`
