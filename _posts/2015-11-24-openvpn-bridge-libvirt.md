@@ -2,7 +2,7 @@
 layout: post
 title: "Access a Remote LibVirt Network via OpenVPN"
 description: "Get your remote VMs a little closer"
-category: personalTODO
+category: personal
 tags: 
 - tech
 - howto
