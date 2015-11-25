@@ -108,9 +108,9 @@ On your local machine, install OpenVPN, download `ca.crt`, `client.crt` and `cli
     persist-key
     persist-tun
     verb 2
-    ca YOUR_HOME/.cert/dev2/ca.crt
-    cert YOUR_HOME/.cert/dev2/baldaeg.crt
-    key YOUR_HOME/.cert/dev2/baldaeg.key
+    ca YOUR_HOME/.cert/myvpn/ca.crt
+    cert YOUR_HOME/.cert/myvpn/client.crt
+    key YOUR_HOME/.cert/myvpn/client.key
     comp-lzo yes
     script-security 2
 
