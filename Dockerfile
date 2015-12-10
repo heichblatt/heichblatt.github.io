@@ -12,6 +12,6 @@ RUN gem install --verbose --no-rdoc --no-ri jekyll
 WORKDIR /srv/www
 
 EXPOSE 4000
-CMD ["jekyll", "serve", "--watch", "--host=0.0.0.0"]
+ENTRYPOINT ["jekyll", "serve", "--watch", "--host=0.0.0.0"]
 
 ADD . /srv/www/
