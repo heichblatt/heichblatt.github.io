@@ -17,6 +17,8 @@ echo \- date   \: $(date)
 echo \- pwd    \: $(pwd)
 echo Stopping currently running app.
 "$COMPOSE" stop
+echo Building new version.
+"$COMPOSE" build
 echo Starting new version.
 "$COMPOSE" up -d
 echo Successfully deployed.
