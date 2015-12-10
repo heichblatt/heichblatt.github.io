@@ -10,7 +10,7 @@ RUN yum install -y rubygems ruby-devel rubygem-RedCloth gcc make nodejs httpd &&
 RUN gem install --verbose --no-rdoc --no-ri jekyll pygments.rb
 
 ADD . /usr/src/blog/
-RUN jekyll build --destination /var/www --source /usr/src/blog
+RUN jekyll build --destination /var/www/html --source /usr/src/blog
 WORKDIR /var/www/html
 
 EXPOSE 80
