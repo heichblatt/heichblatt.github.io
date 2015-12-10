@@ -1,0 +1,4 @@
+trigger:
+  type: deploy
+  script:
+    - "./deploy.sh"
