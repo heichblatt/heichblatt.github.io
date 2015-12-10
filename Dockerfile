@@ -11,7 +11,6 @@ RUN gem install --verbose --no-rdoc --no-ri jekyll pygments.rb
 
 ADD . /usr/src/blog/
 RUN jekyll build --destination /var/www/html --source /usr/src/blog
-WORKDIR /var/www/html
 
 EXPOSE 80
 ENTRYPOINT ["/usr/sbin/httpd", "-DFOREGROUND"]
