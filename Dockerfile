@@ -5,13 +5,13 @@ ENV LANGUAGE en_US.UTF-8
 ENV LANG en_US.UTF-8
 ENV LC_ALL en_US.UTF-8
 
-RUN yum install -y rubygems ruby-devel rubygem-RedCloth gcc make nodejs && \
+RUN yum install -y rubygems ruby-devel rubygem-RedCloth gcc make nodejs httpd && \
     yum clean all
 RUN gem install --verbose --no-rdoc --no-ri jekyll pygments.rb
 
-WORKDIR /srv/www
+ADD . /usr/src/blog/
+RUN jekyll build --destination /var/www --source /usr/src/blog
+WORKDIR /var/www/html
 
 EXPOSE 4000
-ENTRYPOINT ["jekyll", "serve", "--watch", "--host=0.0.0.0"]
-
-ADD . /srv/www/
+ENTRYPOINT ["/usr/sbin/httpd", "-DFOREGROUND"]
