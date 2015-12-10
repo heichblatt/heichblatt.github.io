@@ -15,8 +15,8 @@ echo \- commit \: $(git rev-parse --verify HEAD)
 echo \- branch \: $(git rev-parse --abbrev-ref HEAD)
 echo \- date   \: $(date)
 echo \- pwd    \: $(pwd)
+echo Stopping currently running app.
 "$COMPOSE" stop
+echo Starting new version.
 "$COMPOSE" up -d
-sleep 15s
-./restore-mysql.sh
 echo Successfully deployed.
