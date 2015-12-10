@@ -13,5 +13,5 @@ ADD . /usr/src/blog/
 RUN jekyll build --destination /var/www --source /usr/src/blog
 WORKDIR /var/www/html
 
-EXPOSE 4000
+EXPOSE 80
 ENTRYPOINT ["/usr/sbin/httpd", "-DFOREGROUND"]
