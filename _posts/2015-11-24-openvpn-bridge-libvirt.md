@@ -15,6 +15,7 @@ We assume the following:
 - You have a remote box with libvirtd running on a RHEL 7-compatible OS.
 - You have created a network 192.168.100.0/24 in said libvirtd.
 - You want to access the VMs in said network from your local box.
+- The bridge interface is called virbr1.
 
 We start on the remote server. First, we install the necessary software packages.
 
@@ -65,7 +66,7 @@ Put the following in /etc/openvpn/libvirt-bridge.conf, your server config:
     status server.log
     verb 3
 
-You might have noticed two scripts mentioned in the config: `bridgeup.sh` and `bridgedown.sh`. These are the scripts OpenVPN calls when it successfully created and destroys its own network interface. They add or remove the OpenVPN interface from the LibVirt bridge, respectively.
+You might have noticed two scripts mentioned in the config: `bridgeup.sh` and `bridgedown.sh`. These are the scripts OpenVPN calls when it successfully creates and destroys its own network interface. They add or remove the OpenVPN interface from the LibVirt bridge, respectively.
 
 `bridgeup.sh`
 
