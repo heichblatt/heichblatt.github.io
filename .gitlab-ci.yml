@@ -20,7 +20,7 @@ deploy-to-live:
     - live
   script:
     - docker-compose stop
-    - docker-compose pull
+    - docker-compose build --pull
     - docker-compose up -d
     - /usr/bin/test $(/usr/bin/docker ps | grep -c www-hanneseichblatt-de ) -ge 1
   only:
