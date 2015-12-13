@@ -2,4 +2,4 @@ www-hanneseichblatt-de:
   container_name: www-hanneseichblatt-de
   build: .
   ports:
-    - "4000:80"
+    - "4000:4000"
