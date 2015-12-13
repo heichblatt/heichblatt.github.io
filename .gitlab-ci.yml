@@ -9,7 +9,7 @@ deploy-to-test:
     - docker-compose stop
     - docker-compose build --pull
     - docker-compose up -d
-    - /usr/bin/test $(/usr/bin/docker ps | grep -c www-hanneseichblatt) -ge 2
+    - /usr/bin/test $(/usr/bin/docker ps | grep -c www-hanneseichblatt-de ) -ge 1
   except:
     - master
   allow_failure: false
