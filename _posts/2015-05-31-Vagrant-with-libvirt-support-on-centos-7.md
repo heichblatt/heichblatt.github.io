@@ -16,33 +16,25 @@ It takes a declarative definition (a [Vagrantfile](https://docs.vagrantup.com/v2
 
 First, we remove any previously installed versions of Vagrant.
 
-{% highlight bash %}
-yum remove vagrant
-{% endhighlight %}
+    yum remove vagrant
 
 We will install Vagrant from the [jstribny/vagrant1](https://copr.fedoraproject.org/coprs/jstribny/vagrant1/) [COPR](https://fedorahosted.org/copr/) which depends on two other COPRs providing the [Ruby200](https://www.softwarecollections.org/en/scls/rhscl/ruby200/) and [Ror40](https://www.softwarecollections.org/en/scls/rhscl/ror40/) [Software Collections](https://www.softwarecollections.org/). This is the way [Fedora Magazine recommended](http://fedoramagazine.org/running-vagrant-fedora-22/).
 
-{% highlight bash %}
-cd /etc/yum.repos.d/
-wget https://copr.fedoraproject.org/coprs/rhscl/ruby200-el7/repo/epel-7/rhscl-ruby200-el7-epel-7.repo
-wget https://copr.fedoraproject.org/coprs/rhscl/ror40-el7/repo/epel-7/rhscl-ror40-el7-epel-7.repo
-wget https://copr.fedoraproject.org/coprs/jstribny/vagrant1/repo/epel-7/jstribny-vagrant1-epel-7.repo
-yum install vagrant1 vagrant1-vagrant-libvirt
-{% endhighlight %}
+    cd /etc/yum.repos.d/
+    wget https://copr.fedoraproject.org/coprs/rhscl/ruby200-el7/repo/epel-7/rhscl-ruby200-el7-epel-7.repo
+    wget https://copr.fedoraproject.org/coprs/rhscl/ror40-el7/repo/epel-7/rhscl-ror40-el7-epel-7.repo
+    wget https://copr.fedoraproject.org/coprs/jstribny/vagrant1/repo/epel-7/jstribny-vagrant1-epel-7.repo
+    yum install vagrant1 vagrant1-vagrant-libvirt
 
 Because we want to use our own default provider instead of VirtualBox, we need to tell Vagrant by setting an environment variable. You may append this into your shell configuration file ([or your Vagrantfile](http://fabiorehm.com/blog/2013/11/12/set-the-default-vagrant-provider-from-your-vagrantfile/)).
 
-{% highlight bash %}
-export VAGRANT_DEFAULT_PROVIDER=libvirt
-{% endhighlight %}
+
+    export VAGRANT_DEFAULT_PROVIDER=libvirt
 
 Now we activate the `vagrant1` Software Collection for our current shell.
-{% highlight bash %}
-scl enable vagrant1 $SHELL
-{% endhighlight %}
+
+    scl enable vagrant1 $SHELL
 
 Change into the directory containing our Vagrantfile (for example by cloning and entering [vagrant-fedora22](https://github.com/heichblatt/vagrant-fedora22)) and start the VM.
 
-{% highlight bash %}
-vagrant up
-{% endhighlight %}
+    vagrant up
