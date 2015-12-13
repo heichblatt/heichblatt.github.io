@@ -1,5 +1,5 @@
 FROM fedora:23
-MAINTAINER Hannes Eichblatt <mail@hanneseichblatt.de>
+MAINTAINER heichblatt
 
 ENV LANGUAGE en_US.UTF-8
 ENV LANG en_US.UTF-8
