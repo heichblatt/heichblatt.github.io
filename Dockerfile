@@ -1,4 +1,4 @@
-FROM fedora:23
+FROM fedora:22
 MAINTAINER heichblatt
 
 ENV LANGUAGE en_US.UTF-8
