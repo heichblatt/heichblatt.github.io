@@ -1,4 +1,28 @@
-trigger:
-  type: deploy
+stages:
+  - deploy
+
+deploy-to-test:
+  stage: deploy
+  tags:
+    - test
   script:
-    - "./deploy.sh"
+    - docker-compose stop
+    - docker-compose pull
+    - docker-compose up -d
+    - /usr/bin/test $(/usr/bin/docker ps | grep -c www-hanneseichblatt) -ge 2
+  except:
+    - master
+  allow_failure: false
+
+deploy-to-live:
+  stage: deploy
+  tags:
+    - live
+  script:
+    - docker-compose stop
+    - docker-compose pull
+    - docker-compose up -d
+    - /usr/bin/test $(/usr/bin/docker ps | grep -c www-hanneseichblatt) -ge 2
+  only:
+    - master
+  allow_failure: false
