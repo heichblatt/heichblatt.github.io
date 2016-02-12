@@ -30,6 +30,7 @@ deploy-to-live:
     - docker-compose build --pull
     - docker-compose up -d
     - /usr/bin/test $(/usr/bin/docker ps | grep -c www-hanneseichblatt-de ) -ge 1
+    - curl -qIL http://hanneseichblatt.de | grep HTTP\/ | tail -n1 | grep OK
   only:
     - master
   allow_failure: false
