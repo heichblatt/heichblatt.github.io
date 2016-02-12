@@ -3,8 +3,8 @@ stages:
   - deploy
 
 variables:
-  - TEST_CONTAINER_NAME: www-hanneseichblatt-de-test
-  - TEST_IMAGE_NAME: www-hanneseichblatt-de:test
+  - TEST_CONTAINER_NAME: "www-hanneseichblatt-de-test"
+  - TEST_IMAGE_NAME: "www-hanneseichblatt-de:test"
 
 test-build:
   stage: test
