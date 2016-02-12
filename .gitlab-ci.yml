@@ -1,5 +1,23 @@
 stages:
+  - test
   - deploy
+ 
+test-build:
+  stage: test
+  tags:
+    - test
+  variables:
+    - CONTAINER_NAME: www-hanneseichblatt-de-test
+    - IMAGE_NAME: www-hanneseichblatt-de:test
+  script:
+    - docker rmi -f $IMAGE_NAME
+    - docker build -t www-hanneseichblatt-de:test .
+    - (docker ps -a | grep $CONTAINER_NAME ) && docker rm -f $CONTAINER_NAME
+    - docker run --detach --name $CONTAINER_NAME -t $IMAGE_NAME
+    - sleep 2s
+    - /usr/bin/test $(/usr/bin/docker ps | grep -c $IMAGE_NAME ) -ge 1
+    - docker stop $CONTAINER_NAME
+  allow_failure: false
 
 deploy-to-live:
   stage: deploy
