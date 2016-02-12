@@ -31,5 +31,5 @@ deploy-to-live:
     - docker-compose up -d
     - /usr/bin/test $(/usr/bin/docker ps | grep -c www-hanneseichblatt-de ) -ge 1
   only:
-    - production
+    - master
   allow_failure: false
