@@ -5,8 +5,13 @@ description: > # this means to ignore newlines until "baseurl:"
   hanneseichblatt.de
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://hanneseichblatt.de" # the base hostname & protocol for your site
-twitter_username: heichblatt
-github_username:  heichblatt
+
+title : hanneseichblatt.de
+tagline: Fance Tagline FTW
+author :
+  name : Hannes Eichblatt
+  github : heichblatt
+  twitter : heichblatt
 
 # Build settings
 markdown: kramdown
