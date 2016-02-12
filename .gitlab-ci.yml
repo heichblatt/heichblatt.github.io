@@ -30,7 +30,6 @@ deploy-to-live:
     - docker-compose build --pull
     - docker-compose up -d
     - /usr/bin/test $(/usr/bin/docker ps | grep -c www-hanneseichblatt-de ) -ge 1
-    - /usr/bin/wget -qO /dev/null http://hanneseichblatt.de 
   only:
     - master
   allow_failure: false
