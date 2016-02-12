@@ -1,8 +1,8 @@
 FROM heichblatt/jekyll
 MAINTAINER heichblatt
 
-ADD . /usr/src/blog/
-WORKDIR /usr/src/blog
+ADD . /target
+WORKDIR /target
 RUN jekyll doctor && jekyll build -V
 
 EXPOSE 4000
