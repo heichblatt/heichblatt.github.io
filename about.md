@@ -9,7 +9,8 @@ permalink: /about.html
 - Linux and BSD Administration, virtualization, migration, diagnostics, security, monitoring, hardware management, incident response
   - networking, routing, VPN
   - source control, documentation
+  - automated build pipelines, continuous integration
   - content management systems, webdesign
-  - automation, clustering, distributed systems
-  - Docker, orchestration
-  - Python, BASH, LaTeX
+  - automation, virtualization, clustering, distributed systems
+  - Docker + ecosystem, orchestration, Mesos, Marathon
+  - Python, BASH, LaTeX, Ansible
