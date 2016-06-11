@@ -1,0 +1,40 @@
+---
+layout: post
+title: "Bachelor Thesis Update"
+description: "Over and done"
+category: study
+tags:
+- announcement
+- ba-thesis
+---
+{% include JB/setup %}
+{% include JB/setup %}
+
+I handed in my bachelor's thesis on 8 August 2013.
+
+I am not satisfied with how it turned out contentually. Maybe I am
+expecting too much, probably not. I somehow managed to fill the
+necessary number of pages but not answer all the questions I wanted to
+answer, let alone touch on all the aspects I had in mind. It has been
+said before and slowly I'm beginning to admit it: the topic was more
+suitable for a master's thesis, the subject is too broad.
+
+It was fun, though. I enjoyed writing for longer periods of time and
+being able to immerse myself in work. I ended up using different tools
+than expected. Redmine turned out to be too much for a one-person
+project so I dropped it quite early on. A TODO file in my repository
+proved to be sufficient. LaTeX and BibTeX were great. Despite wanting to
+publicly work on the text and keep it in a public GitHub repo, I used a
+private one. Somehow the pressure of instantaneously publicizing my
+advancements kept me from writing. I switched to Eclipse + EGit +
+TeXlipse at some point. Despite a feeling of this being completely
+overblown, the combination provided useful integration of the various
+tools. I particularly enjoyed the way Git is integrated and presented
+visually, EGit is simply amazing.
+
+Now we wait, exam regulations say it may take up to six weeks to get my
+result. I enjoyed my first weekend after the storm.
+
+Keep your fingers crossed, people.
+
+**Update:** It passed. Only five ECTS points to go.
