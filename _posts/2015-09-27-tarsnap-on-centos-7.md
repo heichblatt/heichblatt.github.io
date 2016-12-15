@@ -27,7 +27,7 @@ Edit `/usr/local/etc/tarsnap.conf`. Then create a key:
 
     /usr/local/bin/tarsnap-keygen --keyfile /root/tarsnap.key --user YOUR_USER_ID --machine MACHINE_ID
 
-Copy the key to a save location, otherwise you cannot access the backup data in case of loss of this key.
+Copy the key to a safe location, otherwise you cannot access the backup data in case of loss of this key.
 
 Create cronjobs like this one:
 
