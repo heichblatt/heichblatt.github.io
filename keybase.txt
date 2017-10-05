@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/heichblatt
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.hanneseichblatt.de
+  * I am heichblatt (https://keybase.io/heichblatt) on keybase.
+  * I have a public key ASAaYEVn_QVrgBwgAsfDs3caVEzD6X1Sb6sZmkqyZ49wBwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120d187a82af41f4590b06ead241f6bbc4b5964b234529407431d328fbb9e6c75940a",
+      "host": "keybase.io",
+      "kid": "01201a604567fd056b801c2002c7c3b3771a544cc3e97d526fab199a4ab2678f70070a",
+      "uid": "8d5aee35362612a852cbb2f7101d7b19",
+      "username": "heichblatt"
+    },
+    "merkle_root": {
+      "ctime": 1507188879,
+      "hash": "5ec37fed6f4176627dd8e9372860b7bc57bc3f9b56f6e4a20ca06518bb1edcf89b05a3a62818dab7d05733716cd0aa376341f12cd60bd8766883014a3cd84b8e",
+      "hash_meta": "77b517c7247526ad253a004b59489c80356bf86f090afb35725bc7a842df15df",
+      "seqno": 1508194
+    },
+    "service": {
+      "hostname": "www.hanneseichblatt.de",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.33"
+  },
+  "ctime": 1507188892,
+  "expire_in": 504576000,
+  "prev": "1a13bd99623dcd280ed338500a6855acf3f57f85938ee6a3fbe86caed8fa2c75",
+  "seqno": 13,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgGmBFZ/0Fa4AcIALHw7N3GlRMw+l9Um+rGZpKsmePcAcKp3BheWxvYWTFA1F7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZDE4N2E4MmFmNDFmNDU5MGIwNmVhZDI0MWY2YmJjNGI1OTY0YjIzNDUyOTQwNzQzMWQzMjhmYmI5ZTZjNzU5NDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMWE2MDQ1NjdmZDA1NmI4MDFjMjAwMmM3YzNiMzc3MWE1NDRjYzNlOTdkNTI2ZmFiMTk5YTRhYjI2NzhmNzAwNzBhIiwidWlkIjoiOGQ1YWVlMzUzNjI2MTJhODUyY2JiMmY3MTAxZDdiMTkiLCJ1c2VybmFtZSI6ImhlaWNoYmxhdHQifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MDcxODg4NzksImhhc2giOiI1ZWMzN2ZlZDZmNDE3NjYyN2RkOGU5MzcyODYwYjdiYzU3YmMzZjliNTZmNmU0YTIwY2EwNjUxOGJiMWVkY2Y4OWIwNWEzYTYyODE4ZGFiN2QwNTczMzcxNmNkMGFhMzc2MzQxZjEyY2Q2MGJkODc2Njg4MzAxNGEzY2Q4NGI4ZSIsImhhc2hfbWV0YSI6Ijc3YjUxN2M3MjQ3NTI2YWQyNTNhMDA0YjU5NDg5YzgwMzU2YmY4NmYwOTBhZmIzNTcyNWJjN2E4NDJkZjE1ZGYiLCJzZXFubyI6MTUwODE5NH0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJ3d3cuaGFubmVzZWljaGJsYXR0LmRlIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMzMifSwiY3RpbWUiOjE1MDcxODg4OTIsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiMWExM2JkOTk2MjNkY2QyODBlZDMzODUwMGE2ODU1YWNmM2Y1N2Y4NTkzOGVlNmEzZmJlODZjYWVkOGZhMmM3NSIsInNlcW5vIjoxMywidGFnIjoic2lnbmF0dXJlIn2jc2lnxEAP7kfKM0BhR3VeWOTbw/PDiH1SbHaEfqA3Cv+B6eBO5vYGtnQiiIoYO+hC961WXVr3gfIGnayGTng+xCDcpAoKqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQg8FCJ7iRtDDQyMkBQwbty0XUSMPB2RsU3u3u7v8213uOjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/heichblatt
+
+==================================================================
