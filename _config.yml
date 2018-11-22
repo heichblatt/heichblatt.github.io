@@ -16,4 +16,4 @@ author :
 # Build settings
 markdown: kramdown
 
-exclude: [Dockerfile, Rakefile, Makefile]
+exclude: [Dockerfile, Rakefile, Makefile, test/inspec.lock]
