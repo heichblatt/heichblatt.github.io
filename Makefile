@@ -15,7 +15,6 @@ build-image:
 clean:
 	-docker rm -f $(CONTAINER_NAME)
 	-rm -f test/inspec.lock
-	rm -rf _site .sass-cache
 
 deepclean: clean
 	-docker rmi -f $(IMAGE_NAME)
@@ -24,6 +23,7 @@ serve: clean
 	docker run --detach -p=4000:4000 $(DOCKER_RUN_OPTS) $(IMAGE_NAME) jekyll serve $(JEKYLL_SERVE_OPTS)
 
 test-all: test-doctor test-build test-inspec
+	docker run --volume="$(PWD):/var/jekyll" $(IMAGE_NAME) rm -rfv _site .sass-cache
 
 test-doctor:
 	docker run $(DOCKER_RUN_OPTS) $(IMAGE_NAME) jekyll doctor
