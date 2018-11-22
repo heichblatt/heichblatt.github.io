@@ -8,8 +8,6 @@ variables:
 
 test-build:
   stage: test
-  tags:
-    - test
   script:
     - (docker images -a | grep $TEST_IMAGE_NAME ) && docker rmi -f $TEST_IMAGE_NAME
     - docker build -t www-hanneseichblatt-de:test .
@@ -22,8 +20,6 @@ test-build:
 
 deploy-to-live:
   stage: deploy
-  tags:
-    - live
   script:
     - docker-compose stop
     - docker-compose rm -f
