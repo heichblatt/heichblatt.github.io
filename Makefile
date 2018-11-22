@@ -15,6 +15,7 @@ build-image:
 clean:
 	-docker rm -f $(CONTAINER_NAME)
 	-rm -f test/inspec.lock
+	rm -rf _site .sass-cache
 
 deepclean: clean
 	-docker rmi -f $(IMAGE_NAME)
