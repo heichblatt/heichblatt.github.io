@@ -9,7 +9,7 @@ variables:
 test-build:
   stage: test
   script:
-    - make test || docker logs $JOB_NAME
+    - make test || ( docker logs $JOB_NAME ; exit 1 )
   allow_failure: false
 
 deploy-to-live:
