@@ -1,9 +1,8 @@
-FROM heichblatt/jekyll
-MAINTAINER heichblatt
+FROM jekyll/jekyll
 
 EXPOSE 4000
 ENTRYPOINT ["jekyll", "serve", "--watch", "--host=0.0.0.0"]
-WORKDIR /target
+WORKDIR /srv/jekyll
 
-ADD . /target
+ADD . /srv/jekyll
 RUN jekyll doctor && jekyll build -V
