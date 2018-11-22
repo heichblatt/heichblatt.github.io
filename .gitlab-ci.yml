@@ -22,3 +22,8 @@ deploy-to-live:
   only:
     - master
   allow_failure: false
+
+clean:
+  when: always
+  script:
+    - make clean
