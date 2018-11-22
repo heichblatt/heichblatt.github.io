@@ -17,3 +17,5 @@ author :
 markdown: kramdown
 
 exclude: [Dockerfile, Rakefile, Makefile, test/inspec.lock]
+sass:
+  cache: false
