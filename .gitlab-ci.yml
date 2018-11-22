@@ -8,7 +8,7 @@ variables:
 test-build:
   stage: test
   script:
-    - make test
+    - make test || docker logs $JOB_NAME
   allow_failure: false
 
 deploy-to-live:
@@ -27,3 +27,4 @@ clean:
   when: always
   script:
     - make clean
+  stage: clean
