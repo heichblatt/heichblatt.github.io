@@ -8,5 +8,5 @@ start: stop
 stop:
 	docker-compose stop -t 10
 
-clean:
+clean: stop
 	docker-compose down -v
