@@ -5,4 +5,5 @@ ENTRYPOINT ["jekyll", "serve", "--watch", "--host=0.0.0.0"]
 WORKDIR /srv/jekyll
 
 ADD . /srv/jekyll
+RUN chown -Rv jekyll:jekyll /srv/jekyll
 RUN jekyll doctor && jekyll build -V
