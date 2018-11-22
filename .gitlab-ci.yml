@@ -1,6 +1,7 @@
 stages:
   - test
   - deploy
+  - clean
 
 variables:
   JOB_NAME: "www-hanneseichblatt-de-test"
