@@ -1,7 +1,6 @@
 stages:
   - test
   - deploy
-  - clean
 
 test:
   stage: test
@@ -16,9 +15,3 @@ deploy:
   only:
     - master
   allow_failure: false
-
-clean:
-  when: always
-  script:
-    - make deepclean
-  stage: clean
