@@ -3,19 +3,12 @@ stages:
   - deploy
 
 variables:
-  TEST_CONTAINER_NAME: "www-hanneseichblatt-de-test"
-  TEST_IMAGE_NAME: "www-hanneseichblatt-de:test"
+  JOB_NAME: "www-hanneseichblatt-de-test"
 
 test-build:
   stage: test
   script:
-    - (docker images -a | grep $TEST_IMAGE_NAME ) && docker rmi -f $TEST_IMAGE_NAME
-    - docker build -t www-hanneseichblatt-de:test .
-    - (docker ps -a | grep $TEST_CONTAINER_NAME ) && docker rm -f $TEST_CONTAINER_NAME
-    - docker run --detach --name $TEST_CONTAINER_NAME -t $TEST_IMAGE_NAME
-    - sleep 2s
-    - /usr/bin/test $(/usr/bin/docker ps | grep -c $TEST_IMAGE_NAME ) -ge 1
-    - docker stop $TEST_CONTAINER_NAME
+    - make test
   allow_failure: false
 
 deploy-to-live:

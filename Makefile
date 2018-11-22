@@ -1,12 +1,19 @@
 JOB_NAME ?= www-hanneseichblatt-de
-.PHONY = start stop clean
+.PHONY = start stop clean serve test
+
 start: stop
-	-docker-compose rm --all --force ${JOB_NAME}
-	docker-compose up -d --build
-	docker-compose ps
+	docker run --name $(JOB_NAME) --rm --volume="$(PWD):/srv/jekyll" jekyll/jekyll jekyll doctor
+	docker run --name $(JOB_NAME) --rm --volume="$(PWD):/srv/jekyll" jekyll/jekyll jekyll build --verbose --trace
 
-stop:
-	docker-compose stop -t 10
+stop: clean
 
-clean: stop
-	docker-compose down -v
+clean:
+	-docker rm -f $(JOB_NAME)
+
+serve: clean
+	docker run --name $(JOB_NAME) --rm --detach -p=4000:4000 --volume="$(PWD):/srv/jekyll" jekyll/jekyll jekyll serve --verbose --trace
+
+test: serve
+	sleep 5
+	curl -Iv localhost:4000 | grep "HTTP/1.1 200 OK"
+	$(MAKE) clean
