@@ -11,7 +11,7 @@ clean:
 	-docker rm -f $(JOB_NAME)
 
 serve: clean
-	docker run --name $(JOB_NAME) --detach -p=4000:4000 --volume="$(PWD):/srv/jekyll" jekyll/jekyll jekyll serve --verbose --trace
+	docker run --user=root  --name $(JOB_NAME) --detach -p=4000:4000 --volume="$(PWD):/srv/jekyll" jekyll/jekyll jekyll serve --verbose --trace
 
 test: serve
 	sleep 5
