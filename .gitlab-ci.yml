@@ -5,7 +5,7 @@ stages:
 test:
   stage: test
   script:
-    - make all
+    - make all deepclean
   allow_failure: false
 
 deploy:
