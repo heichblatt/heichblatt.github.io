@@ -1,25 +1,18 @@
 stages:
-  - test
+  - test-setup
   - deploy
   - clean
 
-variables:
-  JOB_NAME: "www-hanneseichblatt-de-test"
-
-test-build:
+test:
   stage: test
   script:
-    - make test || ( docker logs $JOB_NAME ; exit 1 )
+    - make all
   allow_failure: false
 
-deploy-to-live:
+deploy:
   stage: deploy
   script:
-    - docker-compose stop
-    - docker-compose rm -f
-    - docker-compose build --pull
-    - docker-compose up -d
-    - /usr/bin/test $(/usr/bin/docker ps | grep -c www-hanneseichblatt-de ) -ge 1
+    - echo NOT IMPLEMENTED YET
   only:
     - master
   allow_failure: false
@@ -27,5 +20,5 @@ deploy-to-live:
 clean:
   when: always
   script:
-    - make clean
+    - make deepclean
   stage: clean

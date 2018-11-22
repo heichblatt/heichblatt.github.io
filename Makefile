@@ -1,19 +1,37 @@
-JOB_NAME ?= www-hanneseichblatt-de
-.PHONY = start stop clean serve test
+.PHONY: all build-image clean deepclean serve test-all test-doctor test-build test-inspec
 
-start: stop
-	docker run --name $(JOB_NAME) --volume="$(PWD):/srv/jekyll" jekyll/jekyll jekyll doctor
-	docker run --name $(JOB_NAME) --volume="$(PWD):/srv/jekyll" jekyll/jekyll jekyll build --verbose --trace
+CONTAINER_NAME ?= www-hanneseichblatt-de
+IMAGE_NAME ?= local/jekyll:latest
+CURL_OPTS ?= -Iv --connect-timeout 15 --retry-connrefused --retry-delay 2
+DOCKER_BUILD_OPTS ?= --pull --no-cache -t $(IMAGE_NAME)
+DOCKER_RUN_OPTS ?= --name $(CONTAINER_NAME) --rm --volume="$(PWD):/var/jekyll"
+JEKYLL_SERVE_OPTS ?=--host 0.0.0.0 --verbose --trace
 
-stop: clean
+all: deepclean build-image test-all deepclean
+
+build-image:
+	docker build $(DOCKER_BUILD_OPTS) .
 
 clean:
-	-docker rm -f $(JOB_NAME)
+	-docker rm -f $(CONTAINER_NAME)
+	-rm -f test/inspec.lock
+
+deepclean: clean
+	-docker rmi -f $(IMAGE_NAME)
 
 serve: clean
-	docker run --user=root  --name $(JOB_NAME) --detach -p=4000:4000 --volume="$(PWD):/srv/jekyll" jekyll/jekyll jekyll serve --verbose --trace
+	docker run --detach -p=4000:4000 $(DOCKER_RUN_OPTS) $(IMAGE_NAME) jekyll serve $(JEKYLL_SERVE_OPTS)
 
-test: serve
-	sleep 5
-	curl -Iv localhost:4000 | grep "HTTP/1.1 200 OK"
-	$(MAKE) clean
+test-all: test-doctor test-build test-inspec
+
+test-doctor:
+	docker run $(DOCKER_RUN_OPTS) $(IMAGE_NAME) jekyll doctor
+
+test-build:
+	docker run $(DOCKER_RUN_OPTS) $(IMAGE_NAME) jekyll build --verbose --trace
+
+test-inspec: serve
+	until docker logs $(CONTAINER_NAME) | grep -q 'Server running...' ; do \
+	  sleep 1 ; \
+	done
+	inspec exec -t docker://$(CONTAINER_NAME) test/

@@ -15,3 +15,5 @@ author :
 
 # Build settings
 markdown: kramdown
+
+exclude: [Dockerfile, Rakefile, Makefile]
