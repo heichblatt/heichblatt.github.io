@@ -21,7 +21,7 @@ deepclean: clean
 	-docker rmi -f $(IMAGE_NAME)
 
 serve: clean
-	docker run --detach -p=4000:4000 $(DOCKER_RUN_OPTS) $(IMAGE_NAME) jekyll serve $(JEKYLL_SERVE_OPTS)
+	docker run --detach -p=4000:4000 $(DOCKER_RUN_OPTS) $(IMAGE_NAME) jekyll serve --safe $(JEKYLL_SERVE_OPTS)
 
 test-all: test-doctor test-build test-inspec
 
@@ -29,7 +29,7 @@ test-doctor:
 	docker run $(DOCKER_RUN_OPTS) $(IMAGE_NAME) jekyll doctor
 
 test-build:
-	docker run $(DOCKER_RUN_OPTS) $(IMAGE_NAME) jekyll build --destination $(JEKYLL_OUTPUT_DIR) --verbose --trace
+	docker run $(DOCKER_RUN_OPTS) $(IMAGE_NAME) jekyll build --destination $(JEKYLL_OUTPUT_DIR) --safe --verbose --trace
 
 test-inspec: serve
 	until docker logs $(CONTAINER_NAME) | grep -q 'Server running...' ; do \
