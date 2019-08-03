@@ -17,4 +17,4 @@ author :
 # Build settings
 markdown: kramdown
 
-exclude: [Dockerfile, Rakefile, Makefile, test/inspec.lock, .gitlab-ci.yml .git]
+exclude: [Dockerfile, Rakefile, Makefile, test, .gitlab-ci.yml, .git]
