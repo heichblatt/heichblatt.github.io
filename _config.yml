@@ -7,7 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://www.hanneseichblatt.de" # the base hostname & protocol for your site
 
 title : hanneseichblatt.de
-tagline: Fancy Tagline FTW
+tagline: Personal Website
 author :
   name : Hannes Eichblatt
   github : heichblatt
