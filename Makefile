@@ -36,3 +36,7 @@ test-inspec: serve
 	  sleep 1 ; \
 	done
 	inspec exec -t docker://$(CONTAINER_NAME) test/
+
+# to avoid errors about timestamps, we omit '-t', 'rlpgoD' is simply '-a' without '-t'
+deploy-keybase:
+	rsync -rlpgoDvPh --delete ./_site/ /keybase/public/heichblatt/
