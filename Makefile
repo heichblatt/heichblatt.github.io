@@ -35,7 +35,7 @@ test-inspec: serve
 	until docker logs $(CONTAINER_NAME) | grep -q 'Server running...' ; do \
 	  sleep 1 ; \
 	done
-	inspec exec -t docker://$(CONTAINER_NAME) test/
+	/opt/chef-workstation/embedded/bin/inspec exec -t docker://$(CONTAINER_NAME) test/
 
 # to avoid errors about timestamps, we omit '-t', 'rlpgoD' is simply '-a' without '-t'
 deploy-keybase:
