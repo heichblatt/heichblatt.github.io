@@ -12,5 +12,5 @@ permalink: /about.html
   - automated build pipelines, continuous integration
   - content management systems, webdesign
   - automation, virtualization, clustering, distributed systems
-  - Docker + ecosystem, orchestration, Mesos, Marathon
-  - Python, BASH, LaTeX, Ansible
+  - Docker + ecosystem, orchestration, Mesos, Marathon, Kubernetes, Dokku
+  - Python, Ruby, Bash, Ansible, Chef
