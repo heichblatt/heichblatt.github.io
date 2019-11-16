@@ -2,3 +2,4 @@ _site
 .sass-cache
 *swp
 test/inspec.lock
+junit.xml

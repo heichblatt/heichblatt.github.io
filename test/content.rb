@@ -75,7 +75,7 @@ control 'content-no-exposure' do
   impact 1.0
   title 'Check that no infrastructure files have been exposed'
 
-  %w[Rakefile Makefile Dockerfile test/inspec.lock].each do |file|
+  %w[Rakefile Makefile Dockerfile test/inspec.lock junit.xml].each do |file|
     describe http('localhost:4000/' + file, open_timeout: 60, read_timeout: 60) do
       its('status') { should eq 404 }
     end

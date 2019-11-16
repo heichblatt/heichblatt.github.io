@@ -7,6 +7,9 @@ test:
   script:
     - make all deepclean
   allow_failure: false
+  artifacts:
+    reports:
+      junit: junit.xml
 
 deploy:
   stage: deploy
