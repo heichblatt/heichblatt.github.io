@@ -52,10 +52,6 @@ control 'content-extras' do
     its('body') { should include 'I am an admin of https://www.hanneseichblatt.de' }
     its('body') { should include 'https://keybase.io/heichblatt' }
   end
-
-  describe http('localhost:4000/gpg.asc', open_timeout: 60, read_timeout: 60) do
-    its('body') { should include '-----BEGIN PGP PUBLIC KEY BLOCK-----' }
-  end
 end
 
 control 'content-rss' do
@@ -63,12 +59,11 @@ control 'content-rss' do
   title 'Content completeness of RSS feed'
 
   describe http('localhost:4000/feed.xml', open_timeout: 60, read_timeout: 60) do
-    its('body') { should include '<link>https://www.hanneseichblatt.de/' }
+    its('body') { should match %r{<link>https?://.*/</link>} }
     its('body') { should include '<?xml version="1.0" encoding="UTF-8"?>' }
     its('body') { should include '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">' }
     its('body') { should include '<title>hanneseichblatt.de</title>' }
-    its('body') { should include '<link>https://www.hanneseichblatt.de/</link>' }
-    its('body') { should include '<atom:link href="https://www.hanneseichblatt.de/feed.xml" rel="self" type="application/rss+xml"/>' }
+    its('body') { should match %r{<atom:link href="http://.*:4000/feed.xml" rel="self" type="application/rss\+xml"/>} }
     its('body') { should include '<generator>Jekyll' }
     its('body') { should include '<item>' }
     its('body') { should include '<category>' }
