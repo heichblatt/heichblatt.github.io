@@ -18,3 +18,4 @@ author :
 markdown: kramdown
 
 exclude: [Dockerfile, Rakefile, Makefile, test, .gitlab-ci.yml, .git, junit.xml]
+keep_files: [preseed.cfg]
