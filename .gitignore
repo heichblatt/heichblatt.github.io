@@ -3,3 +3,4 @@ _site
 *swp
 test/inspec.lock
 junit.xml
+.jekyll-cache
