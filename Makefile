@@ -6,7 +6,8 @@ CURL_OPTS ?= -Iv --connect-timeout 15 --retry-connrefused --retry-delay 2
 DOCKER_BUILD_OPTS ?= --pull --no-cache -t $(IMAGE_NAME)
 DOCKER_RUN_OPTS ?= --name $(CONTAINER_NAME) --rm --volume="$(PWD):/var/jekyll"
 JEKYLL_OUTPUT_DIR ?= /var/jekyll-generated
-JEKYLL_SERVE_OPTS ?=--host 0.0.0.0 --destination $(JEKYLL_OUTPUT_DIR) --verbose --trace
+JEKYLL_SERVE_OPTS ?= --host 0.0.0.0 --destination $(JEKYLL_OUTPUT_DIR) --verbose --trace
+DEPLOY_DIR ?= /Volumes/Keybase/public/heichblatt/
 
 all: deepclean build-image test-all deepclean
 
@@ -39,4 +40,4 @@ test-inspec: serve
 
 # to avoid errors about timestamps, we omit '-t', 'rlpgoD' is simply '-a' without '-t'
 deploy-keybase:
-	rsync -rlpgoDvPh --delete ./_site/ /keybase/public/heichblatt/
+	rsync -rlpgoDvPh --delete ./_site/ $(DEPLOY_DIR)
