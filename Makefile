@@ -35,7 +35,7 @@ test-inspec: serve
 	until docker logs $(CONTAINER_NAME) | grep -q 'Server running...' ; do \
 	  sleep 1 ; \
 	done
-	/opt/chef-workstation/embedded/bin/inspec exec -t docker://$(CONTAINER_NAME) test/ --reporter cli junit:./junit.xml
+	docker exec -ti $(CONTAINER_NAME) inspec exec -b local /var/jekyll/test/ --reporter cli junit:./junit.xml
 
 # to avoid errors about timestamps, we omit '-t', 'rlpgoD' is simply '-a' without '-t'
 deploy-keybase:
