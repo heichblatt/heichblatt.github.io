@@ -56,6 +56,10 @@ control 'content-extras' do
   describe http('http://127.0.0.1:4000/preseed.cfg', open_timeout: 60, read_timeout: 60) do
     its('body') { should include '#### Contents of the preconfiguration file' }
   end
+
+  describe http('http://127.0.0.1:4000/pgp_keys.asc', open_timeout: 60, read_timeout: 60) do
+    its('body') { should include '-----BEGIN PGP PUBLIC KEY BLOCK-----' }
+  end
 end
 
 control 'content-rss' do
