@@ -16,7 +16,7 @@ The first definitive sign was [a tweet](https://twitter.com/webmink/status/90408
 
 > For those unaware, Oracle laid off ~ all Solaris tech staff yesterday in a classic silent EOL of the product.
 
-Soon after, TheLayoff.com, a portal for recently or soon to be laid off employees, [started noticing](https://www.thelayoff.com/oracle) an [influx of now ex-Oraclers](https://twitter.com/TheLayoff/status/903323829199671299). Some of them reported having been notified by UPS of impending packages while others reported receiving the first actual termination notices. The packages’ arrivel seem to have been planned for [Labor Day](https://en.wikipedia.org/wiki/Labor_Day) which I find particulary egregious.
+Soon after, TheLayoff.com, a portal for recently or soon to be laid off employees, [started noticing](https://www.thelayoff.com/oracle) an [influx of now ex-Oraclers](https://twitter.com/TheLayoff/status/903323829199671299). Some of them reported having been notified by UPS of impending packages while others reported receiving the first actual termination notices. The packages’ arrival seem to have been planned for [Labor Day](https://en.wikipedia.org/wiki/Labor_Day) which I find particulary egregious.
 
 The Register [reported on August 31](https://www.theregister.co.uk/2017/08/31/oracle_stops_prolonging_inevitable_layoffs/):
 
