@@ -4,9 +4,9 @@ https://keybase.io/heichblatt
 
 I hereby claim:
 
-  * I am an admin of https://hanneseichblatt.de
+  * I am an admin of https://www.hanneseichblatt.de
   * I am heichblatt (https://keybase.io/heichblatt) on keybase.
-  * I have a public key ASANuqqkNIoZziZEG-ce0H_5pMEsI8q4q3sD_f3iZImAhgo
+  * I have a public key ASAaYEVn_QVrgBwgAsfDs3caVEzD6X1Sb6sZmkqyZ49wBwo
 
 To do so, I am signing this object:
 
@@ -15,38 +15,37 @@ To do so, I am signing this object:
     "key": {
       "eldest_kid": "0120d187a82af41f4590b06ead241f6bbc4b5964b234529407431d328fbb9e6c75940a",
       "host": "keybase.io",
-      "kid": "01200dbaaaa4348a19ce26441be71ed07ff9a4c12c23cab8ab7b03fdfde2648980860a",
+      "kid": "01201a604567fd056b801c2002c7c3b3771a544cc3e97d526fab199a4ab2678f70070a",
       "uid": "8d5aee35362612a852cbb2f7101d7b19",
       "username": "heichblatt"
     },
     "merkle_root": {
-      "ctime": 1650530469,
-      "hash": "f3ef022263f91709b07901f1c5884941483a86059f28a9774e9b8abc26535f42c0bd00534577b84e9d1a2e51c201254728da19176f60459eef4bd9e4e5c073e7",
-      "hash_meta": "aeef64c9728f07203aaf5d8c323839ed28544dd702e232fe82df8d8b03598313",
-      "seqno": 22336316
+      "ctime": 1507188879,
+      "hash": "5ec37fed6f4176627dd8e9372860b7bc57bc3f9b56f6e4a20ca06518bb1edcf89b05a3a62818dab7d05733716cd0aa376341f12cd60bd8766883014a3cd84b8e",
+      "hash_meta": "77b517c7247526ad253a004b59489c80356bf86f090afb35725bc7a842df15df",
+      "seqno": 1508194
     },
     "service": {
-      "entropy": "iX+vLIwBf7bcFrv8LH8tE37n",
-      "hostname": "hanneseichblatt.de",
+      "hostname": "www.hanneseichblatt.de",
       "protocol": "https:"
     },
     "type": "web_service_binding",
-    "version": 2
+    "version": 1
   },
   "client": {
     "name": "keybase.io go client",
-    "version": "5.9.2"
+    "version": "1.0.33"
   },
-  "ctime": 1650530489,
+  "ctime": 1507188892,
   "expire_in": 504576000,
-  "prev": "5721b53f9e1e43eaf81d009608d249f6c8bfda6f0730789da80238531d519e96",
-  "seqno": 55,
+  "prev": "1a13bd99623dcd280ed338500a6855acf3f57f85938ee6a3fbe86caed8fa2c75",
+  "seqno": 13,
   "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgDbqqpDSKGc4mRBvnHtB/+aTBLCPKuKt7A/394mSJgIYKp3BheWxvYWTESpcCN8QgVyG1P54eQ+r4HQCWCNJJ9si/2m8HMHidqAI4Ux1RnpbEIHW/2iV5D5bQfCGXt4QSp9ZZFUl4SSIinqGGQJeoSoakAgHCo3NpZ8RAfKeU48nIeNtdPAQ/GgQDo4Kp3d8HEYYG1t0gVa6GWmamMW7dkzirhFDp06226sH9NY5vEc+hh/u0sBBQKTrsCKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIImrR6jlNcchEaMnSUBnswrhpL05MaRZDGo+trcVvO3+o3RhZ80CAqd2ZXJzaW9uAQ==
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgGmBFZ/0Fa4AcIALHw7N3GlRMw+l9Um+rGZpKsmePcAcKp3BheWxvYWTFA1F7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZDE4N2E4MmFmNDFmNDU5MGIwNmVhZDI0MWY2YmJjNGI1OTY0YjIzNDUyOTQwNzQzMWQzMjhmYmI5ZTZjNzU5NDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMWE2MDQ1NjdmZDA1NmI4MDFjMjAwMmM3YzNiMzc3MWE1NDRjYzNlOTdkNTI2ZmFiMTk5YTRhYjI2NzhmNzAwNzBhIiwidWlkIjoiOGQ1YWVlMzUzNjI2MTJhODUyY2JiMmY3MTAxZDdiMTkiLCJ1c2VybmFtZSI6ImhlaWNoYmxhdHQifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MDcxODg4NzksImhhc2giOiI1ZWMzN2ZlZDZmNDE3NjYyN2RkOGU5MzcyODYwYjdiYzU3YmMzZjliNTZmNmU0YTIwY2EwNjUxOGJiMWVkY2Y4OWIwNWEzYTYyODE4ZGFiN2QwNTczMzcxNmNkMGFhMzc2MzQxZjEyY2Q2MGJkODc2Njg4MzAxNGEzY2Q4NGI4ZSIsImhhc2hfbWV0YSI6Ijc3YjUxN2M3MjQ3NTI2YWQyNTNhMDA0YjU5NDg5YzgwMzU2YmY4NmYwOTBhZmIzNTcyNWJjN2E4NDJkZjE1ZGYiLCJzZXFubyI6MTUwODE5NH0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJ3d3cuaGFubmVzZWljaGJsYXR0LmRlIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMzMifSwiY3RpbWUiOjE1MDcxODg4OTIsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiMWExM2JkOTk2MjNkY2QyODBlZDMzODUwMGE2ODU1YWNmM2Y1N2Y4NTkzOGVlNmEzZmJlODZjYWVkOGZhMmM3NSIsInNlcW5vIjoxMywidGFnIjoic2lnbmF0dXJlIn2jc2lnxEAP7kfKM0BhR3VeWOTbw/PDiH1SbHaEfqA3Cv+B6eBO5vYGtnQiiIoYO+hC961WXVr3gfIGnayGTng+xCDcpAoKqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQg8FCJ7iRtDDQyMkBQwbty0XUSMPB2RsU3u3u7v8213uOjdGFnzQICp3ZlcnNpb24B
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
