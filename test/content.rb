@@ -49,7 +49,7 @@ control 'content-extras' do
   title 'Content completeness of extra downloads'
 
   describe http('http://127.0.0.1:4000/keybase.txt', open_timeout: 60, read_timeout: 60) do
-    its('body') { should include 'I am an admin of https://hanneseichblatt.de' }
+    its('body') { should include 'I am an admin of https://www.hanneseichblatt.de' }
     its('body') { should include 'https://keybase.io/heichblatt' }
   end
 
