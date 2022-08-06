@@ -1,20 +1,23 @@
 stages:
   - test
-  - deploy
+
+variables:
+  DOCKER_HOST: tcp://docker:2375
+  DOCKER_TLS_CERTDIR: ""
+
+before_script:
+  - apk add make git
+  - sed -i 's/docker exec -ti/docker exec -t/g' Makefile
+  - git diff
 
 test:
   stage: test
+  image: docker
+  services:
+    - docker:dind
   script:
     - make all deepclean
   allow_failure: false
   artifacts:
     reports:
       junit: junit.xml
-
-deploy:
-  stage: deploy
-  script:
-    - echo NOT IMPLEMENTED YET
-  only:
-    - master
-  allow_failure: false
