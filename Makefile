@@ -43,4 +43,4 @@ deploy-keybase:
 	rsync -rlpgoDvPh --delete ./_site/ pgp_keys.asc preseed.cfg $(DEPLOY_DIR)
 
 deploy: deepclean build-image test-all
-	rsync -avPh -e ssh --rsync-path="sudo rsync" ./_site/ hanneseichblatt.de:/var/www/html/hanneseichblatt.de/
+	rsync -avPh --delete -e ssh --rsync-path="sudo rsync" ./_site/ pgp_keys.asc hanneseichblatt.de:/var/www/html/hanneseichblatt.de/
