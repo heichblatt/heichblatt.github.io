@@ -1,6 +1,6 @@
-_site
-.sass-cache
+public
 *swp
 test/inspec.lock
 junit.xml
-.jekyll-cache
+*.lock
+resources

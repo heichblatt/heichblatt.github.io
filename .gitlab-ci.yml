@@ -16,6 +16,7 @@ test:
   services:
     - docker:dind
   script:
+    - git submodule update --init
     - make all deepclean
   allow_failure: false
   artifacts:

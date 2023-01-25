@@ -1,12 +1,13 @@
-.PHONY: all build-image clean deepclean serve test-all test-doctor test-build test-inspec deploy-keybase deploy
+.PHONY: all build-image clean deepclean serve test-all test-build test-inspec deploy-keybase deploy
 
 CONTAINER_NAME ?= www-hanneseichblatt-de
-IMAGE_NAME ?= local/jekyll:latest
+IMAGE_NAME ?= local/hugo:latest
 CURL_OPTS ?= -Iv --connect-timeout 15 --retry-connrefused --retry-delay 2
 DOCKER_BUILD_OPTS ?= --pull --no-cache -t $(IMAGE_NAME)
-DOCKER_RUN_OPTS ?= --name $(CONTAINER_NAME) --rm --volume="$(PWD):/var/jekyll"
-JEKYLL_OUTPUT_DIR ?= /var/jekyll-generated
-JEKYLL_SERVE_OPTS ?= --host 0.0.0.0 --destination $(JEKYLL_OUTPUT_DIR) --verbose --trace
+DOCKER_RUN_OPTS ?= --workdir /var/hugo --name $(CONTAINER_NAME) --rm --volume="$(PWD):/var/hugo"
+HUGO_OUTPUT_DIR ?= /var/hugo-generated
+HUGO_SERVE_OPTS ?= --bind 0.0.0.0 --destination $(HUGO_OUTPUT_DIR) --verbose
+BUILD_DIR ?= ./build
 DEPLOY_DIR ?= /Volumes/Keybase/public/heichblatt/
 
 all: deepclean build-image test-all deepclean
@@ -22,25 +23,22 @@ deepclean: clean
 	-docker rmi -f $(IMAGE_NAME)
 
 serve: clean
-	docker run --detach -p=4000:4000 $(DOCKER_RUN_OPTS) $(IMAGE_NAME) jekyll serve --safe $(JEKYLL_SERVE_OPTS)
+	docker run --detach -p=1313:1313 $(DOCKER_RUN_OPTS) $(IMAGE_NAME) hugo server $(HUGO_SERVE_OPTS)
 
-test-all: test-doctor test-build test-inspec
-
-test-doctor:
-	docker run $(DOCKER_RUN_OPTS) $(IMAGE_NAME) jekyll doctor
+test-all: clean test-build test-inspec
 
 test-build:
-	docker run $(DOCKER_RUN_OPTS) $(IMAGE_NAME) jekyll build --destination $(JEKYLL_OUTPUT_DIR) --safe --verbose --trace
+	docker run $(DOCKER_RUN_OPTS) $(IMAGE_NAME) hugo --destination $(HUGO_OUTPUT_DIR) --verbose
 
 test-inspec: serve
-	until docker logs $(CONTAINER_NAME) | grep -q 'Server running...' ; do \
+	until docker logs $(CONTAINER_NAME) | grep -q 'Web Server is available' ; do \
 	  sleep 1 ; \
 	done
-	docker exec -ti $(CONTAINER_NAME) inspec exec -b local /var/jekyll/test/ --reporter cli junit:./junit.xml
+	docker exec -ti $(CONTAINER_NAME) inspec exec -b local /var/hugo/test/ --reporter cli junit:./junit.xml
 
 # to avoid errors about timestamps, we omit '-t', 'rlpgoD' is simply '-a' without '-t'
 deploy-keybase:
-	rsync -rlpgoDvPh --delete ./_site/ pgp_keys.asc preseed.cfg $(DEPLOY_DIR)
+	rsync -rlpgoDvPh --delete ./public/ pgp_keys.asc preseed.cfg $(DEPLOY_DIR)
 
 deploy: deepclean build-image test-all
-	rsync -avPh --delete -e ssh --rsync-path="sudo rsync" ./_site/ pgp_keys.asc keybase.txt hanneseichblatt.de:/var/www/html/hanneseichblatt.de/
+	rsync -avPh --delete -e ssh --rsync-path="sudo rsync" ./public/ pgp_keys.asc keybase.txt hanneseichblatt.de:/var/www/html/hanneseichblatt.de/
