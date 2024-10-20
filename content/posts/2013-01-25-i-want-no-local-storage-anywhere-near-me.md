@@ -6,7 +6,7 @@ tags:
   - comment
   - tech
 ---
-I have been pondering the [The Setup](http://usesthis.com/) post about
+I have been pondering the [The Setup post](https://usesthis.com/interviews/rob.pike/) about
 [Rob Pike](https://en.wikipedia.org/wiki/Rob_Pike). He developed [Plan
 9](https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs) which I was
 briefly interested in. He has a very interesting and very radical point
