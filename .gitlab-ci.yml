@@ -6,8 +6,9 @@ variables:
   DOCKER_TLS_CERTDIR: ""
 
 before_script:
-  - apk add make git
-  - sed -i 's/docker exec -ti/docker exec -t/g' Makefile
+  - apk add make git py3-pip
+  - pip3 install --break-system-packages pipenv
+  - sed -i 's/docker run -ti/docker run -d/g' Makefile
   - git diff
 
 test:
@@ -15,10 +16,11 @@ test:
   image: docker
   services:
     - docker:dind
+  variables:
+    BASE_URL: "http://docker:1313"
   script:
     - git submodule update --init
-    - make all deepclean
+    - pipenv install
+    - pipenv run make serve test
   allow_failure: false
-  artifacts:
-    reports:
-      junit: junit.xml
+
