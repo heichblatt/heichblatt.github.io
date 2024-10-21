@@ -1,0 +1,71 @@
+baseURL = 'https://hanneseichblatt.de/'
+title = 'hanneseichblatt.de'
+theme = 'hugo-paper'
+copyright = "© Hannes Eichblatt"
+
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
+# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
+ignoreErrors = ["error-remote-getjson"]
+
+[params]
+  color = 'gray'   # linen, wheat, gray, light
+
+  twitter = 'heichblatt'
+  github = 'heichblatt'
+  linkedin = 'hanneseichblatt'
+  mastodon = 'https://hachyderm.io/@heichblatt'
+  # avatar = 'mail@hanneseichblatt.de'
+  name = 'Hannes Eichblatt'
+  bio = 'DevOps Engineer'
+  rss = true
+
+# needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+#  [markup.highlight]
+#    lineNos = true
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true

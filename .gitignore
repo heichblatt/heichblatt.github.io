@@ -4,3 +4,4 @@ test/inspec.lock
 junit.xml
 *.lock
 resources
+.pytest_cache
