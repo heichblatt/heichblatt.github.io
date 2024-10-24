@@ -10,7 +10,7 @@ serve: clean
 		-v $(HOME)/hugo_cache:/tmp/hugo_cache \
 		--name $(CONTAINER_NAME) \
 		-p 1313:1313 \
-		hugomods/hugo:exts-non-root server
+		hugomods/hugo:exts-non-root server --buildFuture
 
 test:
 	pipenv run pytest -v test/*py
