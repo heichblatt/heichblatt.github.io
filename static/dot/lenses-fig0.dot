@@ -1,0 +1,22 @@
+digraph G {
+    Definition -> Structure
+    Definition -> Assumptions
+    Operation -> State
+
+    subgraph cluster_0 {
+        label = "Visualization"
+        subgraph cluster_1 {
+            label = "Documentation"
+            Structure
+        }
+    
+    subgraph cluster_2 {
+            label = "Monitoring"
+            Assumptions
+            subgraph cluster_3 {
+                label = "Metrics"
+                State
+            }
+        }
+    }
+}
