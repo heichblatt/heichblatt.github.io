@@ -1,6 +1,8 @@
 .PHONY: clean serve test
 CONTAINER_NAME ?= www-hanneseichblatt-de
 
+default: serve
+
 clean:
 	docker rm -f $(CONTAINER_NAME)
 
