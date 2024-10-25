@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run Hugo Server",
+        "type": "shell",
+        "command": "hugo serve --buildFuture",
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": [],
+        "detail": "Runs the Hugo development server"
+      }
+    ]
+  }
