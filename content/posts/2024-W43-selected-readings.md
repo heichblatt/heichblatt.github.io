@@ -2,7 +2,11 @@
 title: "2024-W43 Selected Readings"
 date: 2024-10-24
 draft: false
+tags:
+  - selected-reading
 ---
+
+This is the first installment in what I hope will be a series of weekly lists of links that interested me.
 
 - [Jabra: Great ExpectAItions, Work in the age of AI](https://www.jabra.com/de-de/thought-leadership/ai-at-work)
   Interesting data about the current state of AI adoption in the workplace, some interesting findings when looking at different age groups.
