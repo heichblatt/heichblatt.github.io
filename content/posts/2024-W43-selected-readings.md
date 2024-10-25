@@ -1,9 +1,9 @@
 ---
-title: "2024-W43 Selected Readings"
+title: "Selected Readings 2024-W43"
 date: 2024-10-24
 draft: false
 tags:
-  - selected-reading
+  - selected-readings
 ---
 
 This is the first installment in what I hope will be a series of weekly lists of links that interested me.
