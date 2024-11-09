@@ -17,10 +17,11 @@ ignoreErrors = ["error-remote-getjson"]
   github = 'heichblatt'
   linkedin = 'hanneseichblatt'
   mastodon = 'https://hachyderm.io/@heichblatt'
-  # avatar = 'mail@hanneseichblatt.de'
+  avatar = 'mail@hanneseichblatt.de'
   name = 'Hannes Eichblatt'
   bio = 'DevOps Engineer'
   rss = true
+  favicon = "favicon.ico"
 
 # needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
 [markup]
