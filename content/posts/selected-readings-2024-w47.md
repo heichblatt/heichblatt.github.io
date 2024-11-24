@@ -18,7 +18,7 @@ tags:
   > (..) two ways in which you can think about your personality. The first is in terms of the personality attributes that you have, or your openness to experience, conscientiousness, extraversion, agreeability and neuroticism (what I call the Big Five personality traits). The second is in terms of what you do, or your personal projects.
 
   > greatest value in thinking of personality as "doing projects" rather than "having traits" is in three powerful words: potential for change
-- [Forte Labs: Supersizing the Mind: The Science of Cognitive Extension](https://fortelabs.com/blog/supersizing-the-mind-the-science-of-cognitive-extension/) Pairs well with [Kleon's "Thinking outside your head"]({{< relref "selected-readings-2024-w45.md" >}}) and [Paul's "The Extended Mind"](https://search.worldcat.org/title/The-extended-mind-:-the-power-of-thinking-outside-the-brain/oclc/1275428473).
+- [Forte Labs: Supersizing the Mind: The Science of Cognitive Extension](https://fortelabs.com/blog/supersizing-the-mind-the-science-of-cognitive-extension/) Pairs well with [Kleon's "Thinking outside your head"]({{< relref "selected-readings-2024-w45.md" >}}) and [Murphy Paul's "The Extended Mind"](https://search.worldcat.org/title/The-extended-mind-:-the-power-of-thinking-outside-the-brain/oclc/1275428473).
   > Our consciousness is not just embodied — it is embedded in our environment. Our consciousness is distributed, simultaneously deeply integrated and loosely coupled.
 
   > Instead of putting that lump of soft tissue on a pedestal, we should focus instead on building enabling contexts. On helping our minds make more effective tradeoffs between mental, physical, and social sources of knowledge.
