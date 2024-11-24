@@ -26,7 +26,7 @@ tags:
   > Feynman reacted with unexpected sharpness, "I actually did the work on the paper." Weiner responded, "Well, the work was done in your head, but the record of it is still here." Feynman pushed back, "No, it’s not a record, not really. It’s working. You have to work on paper and this is the paper. Okay?"
 - [Anne-Laure Le Cunff: Checklists, when we can‘t trust our brains](https://nesslabs.com/checklists) Collects the basics of the topic, of course referring to Gawande's "The Checklist Manifesto". If you never thought deeply about checklists, and you probably haven't, start here.
 - [Austin Kleon: How to make a map of your mind](https://austinkleon.substack.com/p/how-to-make-a-map-of-your-mind) One of my favourite thinkers when it comes to thinking outside your head gives a light-hearted intro to one of the most effective tools to think.
-- [Cal Newport: Slow Productivity](https://search.worldcat.org/title/1382526321) Finished the audiobook this week. Extends some of the ideas in [Deep Work](https://search.worldcat.org/title/966615016), a staple of my thinking about work and productivit
+- [Cal Newport: Slow Productivity](https://search.worldcat.org/title/1382526321) Finished the audiobook this week. Extends some of the ideas in [Deep Work](https://search.worldcat.org/title/966615016), a staple of my thinking about work and productivity.
 
 - Songs of the Week:
   - Linkin Park: Casualty
