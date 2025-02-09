@@ -28,4 +28,4 @@ I keep recommending the same list of productivity essentials and finally took th
 - [Forte Labs](https://fortelabs.com/blog/) is a blog that focuses on personal knowledge management and productivity strategies. It explores techniques like progressive summarization, effective note-taking, and organizing information to boost learning and creativity. The blog provides actionable insights for optimizing cognitive performance and improving how we process and retain knowledge.
   - Especially interesting was the [PARA method](https://fortelabs.com/blog/para/), a productivity and organization system developed by Tiago Forte, designed to help individuals manage information more effectively. It stands for Projects, Areas, Resources, and Archives, which are the four categories used to organize digital and physical materials. The method emphasizes clarity and accessibility, helping users focus on what’s important and streamline their workflows.
 
-Thank you, Thomas, for finally motivating me to write this list after recommending it to so many others.
+Thank you, Thomas, for finally motivating me to write down this list.
