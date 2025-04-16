@@ -5,3 +5,4 @@ junit.xml
 *.lock
 resources
 .pytest_cache
+content/.DS_Store
