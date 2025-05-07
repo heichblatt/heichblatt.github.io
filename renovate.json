@@ -6,9 +6,12 @@
   "commitMessageAction": "update dependency",
   "commitMessageTopic": "{{depName}}",
   "commitMessagePrefix": "chore(deps): ",
-  "assignees": ["heichblatt"],
-  "labels": ["dependencies"],
+  "assignees": [
+    "heichblatt"
+  ],
+  "labels": [
+    "dependencies"
+  ],
   "automerge": true,
-  "automergeType": "pr",
-  "requiredStatusChecks": ["Deploy Hugo site to Pages"]
+  "automergeType": "pr"
 }
