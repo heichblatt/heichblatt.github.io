@@ -2,5 +2,13 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended"
-  ]
+  ],
+  "commitMessageAction": "update dependency",
+  "commitMessageTopic": "{{depName}}",
+  "commitMessagePrefix": "chore(deps): ",
+  "assignees": ["heichblatt"],
+  "labels": ["dependencies"],
+  "automerge": true,
+  "automergeType": "pr",
+  "requiredStatusChecks": ["Deploy Hugo site to Pages"]
 }
