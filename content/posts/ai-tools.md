@@ -15,6 +15,10 @@ tags:
 
 ## Opera Neon
 
+## Microsoft Copilot in Edge
+
+https://blogs.windows.com/msedgedev/2025/07/28/introducing-copilot-mode-in-edge-a-new-way-to-browse-the-web/
+
 ## Able
 
 https://able.ac/
@@ -23,6 +27,6 @@ https://able.ac/
 
 ## ChatGPT
 
-# Aloe
+## Aloe
 
 via https://nesslabs.com/aloe-featured-tool
