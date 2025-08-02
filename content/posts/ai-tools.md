@@ -23,6 +23,8 @@ https://blogs.windows.com/msedgedev/2025/07/28/introducing-copilot-mode-in-edge-
 
 https://able.ac/
 
+## Perplexity Comet
+
 # Audio
 
 ## ChatGPT
@@ -30,3 +32,9 @@ https://able.ac/
 ## Aloe
 
 via https://nesslabs.com/aloe-featured-tool
+
+# Obsidian
+
+## Smart Connections
+
+https://github.com/brianpetro/obsidian-smart-connections
