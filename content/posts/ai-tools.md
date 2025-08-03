@@ -29,6 +29,8 @@ https://able.ac/
 
 ## Perplexity Comet
 
+https://podcasts.apple.com/de/podcast/decoder-with-nilay-patel/id1011668648?i=1000717653515
+
 # Audio
 
 ## ChatGPT
