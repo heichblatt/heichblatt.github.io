@@ -15,6 +15,10 @@ tags:
 
 ## Opera Neon
 
+## BrowserOS
+
+https://www.browseros.com/
+
 ## Microsoft Copilot in Edge
 
 https://blogs.windows.com/msedgedev/2025/07/28/introducing-copilot-mode-in-edge-a-new-way-to-browse-the-web/
