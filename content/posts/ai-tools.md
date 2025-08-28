@@ -44,3 +44,9 @@ via https://nesslabs.com/aloe-featured-tool
 ## Smart Connections
 
 https://github.com/brianpetro/obsidian-smart-connections
+
+# Privacy-focused
+
+## Proton Lumo
+
+https://lumo.proton.me/
