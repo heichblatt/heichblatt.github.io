@@ -49,4 +49,8 @@ https://github.com/brianpetro/obsidian-smart-connections
 
 ## Proton Lumo
 
+# Self-hosted
+
+TODO: List of recommendations https://x.com/TheAhmadOsman/status/1964550593802096775
+
 https://lumo.proton.me/
