@@ -31,6 +31,11 @@ https://able.ac/
 
 https://podcasts.apple.com/de/podcast/decoder-with-nilay-patel/id1011668648?i=1000717653515
 
+## Local Browser AI
+
+https://blog.alexewerlof.com/p/local-browser-ai?r=62ep8n&utm_medium=ios&triedRedirect=true
+https://chromewebstore.google.com/detail/local-browser-ai/pdpikolagglmoahkmobpmloimhakkjmd
+
 # Audio
 
 ## ChatGPT
