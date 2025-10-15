@@ -31,7 +31,11 @@ https://able.ac/
 
 https://podcasts.apple.com/de/podcast/decoder-with-nilay-patel/id1011668648?i=1000717653515
 
-## Local Browser AI
+## Strawberry
+
+https://strawberrybrowser.com/
+
+## Extension: Local Browser AI
 
 https://blog.alexewerlof.com/p/local-browser-ai?r=62ep8n&utm_medium=ios&triedRedirect=true
 https://chromewebstore.google.com/detail/local-browser-ai/pdpikolagglmoahkmobpmloimhakkjmd
@@ -49,6 +53,12 @@ via https://nesslabs.com/aloe-featured-tool
 ## Smart Connections
 
 https://github.com/brianpetro/obsidian-smart-connections
+
+# Local Tooling
+
+## emdash
+
+https://www.emdash.sh/
 
 # Privacy-focused
 
