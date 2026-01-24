@@ -6,6 +6,10 @@
   "commitMessageAction": "update dependency",
   "commitMessageTopic": "{{depName}}",
   "commitMessagePrefix": "chore(deps): ",
+  "enabledManagers": [
+    "git-submodules",
+    "github-actions"
+  ],
   "assignees": [
     "heichblatt"
   ],
