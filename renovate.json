@@ -12,6 +12,18 @@
   "labels": [
     "dependencies"
   ],
+  "regexManagers": [
+    {
+      "fileMatch": [
+        "^\\.github/workflows/hugo\\.yml$"
+      ],
+      "matchStrings": [
+        "HUGO_VERSION:\\s*(?<currentValue>\\d+\\.\\d+\\.\\d+)"
+      ],
+      "datasourceTemplate": "github-releases",
+      "depNameTemplate": "gohugoio/hugo"
+    }
+  ],
   "automerge": true,
   "automergeType": "pr"
 }
