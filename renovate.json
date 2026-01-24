@@ -8,7 +8,8 @@
   "commitMessagePrefix": "chore(deps): ",
   "enabledManagers": [
     "git-submodules",
-    "github-actions"
+    "github-actions",
+    "regex"
   ],
   "assignees": [
     "heichblatt"
@@ -25,7 +26,8 @@
         "HUGO_VERSION:\\s*(?<currentValue>\\d+\\.\\d+\\.\\d+)"
       ],
       "datasourceTemplate": "github-releases",
-      "depNameTemplate": "gohugoio/hugo"
+      "depNameTemplate": "gohugoio/hugo",
+      "versioningTemplate": "semver"
     }
   ],
   "automerge": true,
