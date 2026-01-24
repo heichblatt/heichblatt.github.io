@@ -1,6 +1,6 @@
 ---
 title: "Ai Tools"
-date: 2025-08-1
+date: 2025-08-01
 draft: true
 tags:
     - tech
