@@ -6,7 +6,7 @@ tags:
     - comment
 ---
 
-Most people I know use AI the same way: type a question, get an answer, move on. That works fine — but it's one of four fundamentally different [engagement patterns](https://garden.hanneseichblatt.de/AI-Engagement-Patterns), and treating them as interchangeable is part of why AI-assisted work so often feels like it underdelivers.
+Most people I know use AI the same way: type a question, get an answer, move on. That works fine. But it's one of four fundamentally different [engagement patterns](https://garden.hanneseichblatt.de/AI-Engagement-Patterns), and treating them as interchangeable is part of why AI-assisted work so often feels like it underdelivers.
 
 ## The Four Modes
 
