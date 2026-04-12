@@ -42,4 +42,4 @@ The infrastructure you build shapes which modes are available to you. And the mo
 
 ---
 
-*This post was written in collaboration with Claude Opus, implementing the Workshop pattern described above.*
+*This post was written in collaboration with Claude Sonnet, implementing the Workshop pattern described above.*
