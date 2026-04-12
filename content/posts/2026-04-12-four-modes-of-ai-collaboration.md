@@ -1,5 +1,5 @@
 ---
-title: "Four Ways to Work With AI"
+title: "Four Modes of AI Collaboration"
 date: 2026-04-12
 draft: false
 tags:
@@ -40,3 +40,7 @@ The four modes aren't fixed buckets. A relationship that starts as Workshop can 
 This is where [agentic self-improvement](https://garden.hanneseichblatt.de/Agentic-Self-Improvement) becomes interesting: agents that actively reflect on past collaboration and refine their own context grow more capable at higher modes over time — not because the underlying model improves, but because the working relationship does. Karpathy's [append-and-review](https://karpathy.bearblog.dev/the-append-and-review-note/) concept is an early sketch of what this looks like in practice.
 
 The infrastructure you build shapes which modes are available to you. And the modes you can reach are the modes you'll use.
+
+---
+
+*This post was written in collaboration with Claude Opus, implementing the Workshop pattern described above.*
