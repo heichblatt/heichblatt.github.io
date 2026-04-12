@@ -7,33 +7,36 @@ tags:
     - comment
 ---
 
-Most people use AI the same way: type a question, read the answer. That's one of four distinct modes — and conflating them is why AI-assisted work so often disappoints.
+Most people I know use AI the same way: type a question, get an answer, move on. That works fine — but it's one of four fundamentally different [engagement patterns](https://garden.hanneseichblatt.de/AI-Engagement-Patterns), and treating them as interchangeable is part of why AI-assisted work so often feels like it underdelivers.
 
 ## The Four Modes
 
-Four [engagement patterns](https://garden.hanneseichblatt.de/AI-Engagement-Patterns), differentiated by how much context the agent keeps and how much you specify up front:
+The patterns are best understood along two axes: how much context the agent keeps, and how much autonomy you give it.
 
-| Mode | Context | You give the agent |
-|------|---------|-------------------|
-| **Lookup** | None | A fully specified question |
-| **Workshop** | Ephemeral session | A goal |
-| **Companion** | Persistent | A working relationship |
-| **Mission** | Autonomous | A task definition |
+**Lookup** is stateless. You bring a fully specified question; the agent answers it; nothing carries over. It's the right tool for exactly what it sounds like — looking things up. Most people live here.
 
-These aren't a hierarchy. Lookup is right for one-off questions; Mission for autonomous execution. Using the wrong mode for the job — Workshop for a quick factual question, Lookup for a complex refactoring — is what produces the frustration.
+**Workshop** is an ephemeral session with a shared goal. You and an agent work together toward something, context is alive for the duration, and then it's gone. This is the mode that most coding agents and document editors are built around today.
+
+**Companion** is what happens when you stop discarding context. The collaboration accumulates across sessions — the agent develops a picture of how you work, what you care about, what you've tried before. Something that resembles a working relationship starts to form.
+
+**Mission** is the autonomous end. You hand over a task definition — including what "done" looks like — and the agent executes independently, checking back at decision points. You're managing a process, not driving one.
+
+These aren't a sophistication hierarchy. Using Workshop mode for a one-off question is overkill; using Lookup for a complex refactoring is maddening. The frustration most people feel with AI tools often comes from this mismatch, not from the models themselves.
 
 ## Abstraction is the Variable
 
-What shifts across the modes is the level of abstraction you bring. In Lookup you specify everything. In Mission you share an idea and the agent figures out the rest. Karpathy put it well: in the LLM era, you share the idea and the agent [customises and builds for your specific needs](https://garden.hanneseichblatt.de/Abstraction-and-Autonomy-in-Human-AI-Collaboration). The bottleneck in Mission mode isn't model capability — it's the quality of your task definition.
+What changes across the modes is the level of abstraction at which you engage. In Lookup, you do all the specifying — the question has to be self-contained. In Workshop, you specify a goal and leave the path open. In Companion, the accumulated context fills in gaps you no longer need to articulate. In Mission, you're operating at the level of intent.
 
-## Infrastructure Follows
+Karpathy captured this neatly: in the LLM era, [you share the idea and the agent builds it for your specific needs](https://garden.hanneseichblatt.de/Abstraction-and-Autonomy-in-Human-AI-Collaboration) — there's less and less point in sharing specific code. The abstraction becomes the deliverable. This is a real shift: the bottleneck in higher modes isn't what the model can do, it's how precisely you can articulate what you want at the right level of vagueness.
 
-Each mode has different cost, latency, and capability requirements. [Daniel Miessler's advice](https://danielmiessler.com/blog/inference-costs-are-not-sustainable): start planning your multi-model, local-model, cheaper-model strategy for your harness. A [router that dispatches](https://garden.hanneseichblatt.de/Personal-AI-Infrastructure) to local Ollama for Lookup and premium remote models for Mission is the natural architecture.
+## Infrastructure Has to Match
 
-This is a new ops problem.
+Each mode has a different cost and capability profile, and you can't run all four out of the same setup. [Daniel Miessler's framing](https://danielmiessler.com/blog/inference-costs-are-not-sustainable) is useful here: you need a strategy for routing between models — cheaper and faster for well-defined tasks, more capable for open-ended ones. The right [infrastructure](https://garden.hanneseichblatt.de/Personal-AI-Infrastructure) is less about having the most powerful model and more about dispatching intelligently. That's an ops problem most people haven't started thinking about yet.
 
-## What Changes Over Time
+## The Modes Evolve
 
-The modes aren't fixed. Agents that [accumulate and refine context](https://garden.hanneseichblatt.de/Agentic-Self-Improvement) over time — Karpathy's [append-and-review](https://karpathy.bearblog.dev/the-append-and-review-note/) concept applied to agent memory — become more capable at Companion and Mission work without the models themselves changing.
+The four modes aren't fixed buckets. A relationship that starts as Workshop can graduate to Companion as shared context accumulates. Mission becomes viable only once you've built enough trust in how the agent operates.
 
-The infrastructure you build now determines which modes you can operate in. The modes you can support are the modes you will use.
+This is where [agentic self-improvement](https://garden.hanneseichblatt.de/Agentic-Self-Improvement) becomes interesting: agents that actively reflect on past collaboration and refine their own context grow more capable at higher modes over time — not because the underlying model improves, but because the working relationship does. Karpathy's [append-and-review](https://karpathy.bearblog.dev/the-append-and-review-note/) concept is an early sketch of what this looks like in practice.
+
+The infrastructure you build shapes which modes are available to you. And the modes you can reach are the modes you'll use.
