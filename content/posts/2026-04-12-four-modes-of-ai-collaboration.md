@@ -1,7 +1,6 @@
 ---
 title: "Four Modes of AI Collaboration"
 date: 2026-04-12
-draft: false
 tags:
     - tech
     - comment
