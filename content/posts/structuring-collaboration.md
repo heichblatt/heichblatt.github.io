@@ -96,6 +96,8 @@ Your adoption success depends on the structure your organization provides for em
 
 For deeper thinking on the collaboration patterns themselves, see my "[Four Modes of AI Collaboration](/posts/2026-04-12-four-modes-of-ai-collaboration/)" post. For a knowledge garden on this topic, check out my [AI Engagement Patterns](https://garden.hanneseichblatt.de/AI-Engagement-Patterns) notes.
 
+Once again thanks to Jakob for helping me think.
+
 ---
 
 *This post was written in collaboration with Claude Haiku, implementing the Workshop pattern described above.*
