@@ -65,17 +65,15 @@ Let's zoom into operations to make this concrete.
 
 ## How Career Levels Enable Adoption
 
-Different career levels play distinct roles in making AI adoption succeed across the organization. Rather than just progressing through modes individually, they maintain and improve the shared infrastructure that helps everyone else adopt.
+Different career levels progress through modes at different paces, and they also play distinct roles in making adoption succeed across the organization. They maintain and improve the shared infrastructure that helps everyone else adopt.
 
-- **Junior** - Use shared agent configurations, report and fix bugs. They're testing the shared standards in real work and feeding back improvements.
-
-- **Mid-level** - Restructure and curate the collection of agent instructions. They're experienced enough to see patterns, spot redundancy, improve clarity.
-
-- **Senior** - Validate approaches and mentor others through transitions. They're the pattern-setters, ensuring practices are sound before they become standards.
-
-- **Tech Lead** - Align shared standards with other systems and regulations. They're ensuring agent configurations don't conflict with security, compliance, or operational requirements.
-
-- **Architect** - Design the infrastructure to share, version, and evolve instructions. They're thinking about how the organization scales this without chaos.
+| Level | Personal Progression | Enablement Role |
+|-------|---------------------|-----------------|
+| **Junior** | Lookup → Workshop (Integration) | Use shared agent configurations, report and fix bugs. Test standards in real work, feed back improvements. |
+| **Mid-level** | Lookup/Workshop → Companion (Integration+) | Restructure and curate the collection of agent instructions. See patterns, spot redundancy, improve clarity. |
+| **Senior** | Workshop → Companion + Mission (quickly) | Validate approaches and mentor others through transitions. Pattern-setters ensuring practices are sound before becoming standards. |
+| **Tech Lead** | Workshop → Mission | Align shared standards with other systems and regulations. Ensure configurations don't conflict with security, compliance, or ops. |
+| **Architect** | Mission | Design infrastructure to share, version, and evolve instructions. Think about how the organization scales without chaos. |
 
 This shared collection of agent instructions and configurations is your onboarding mechanism. When a new colleague joins, they don't start from zero—they inherit the team's accumulated patterns, standards, and configurations. Each career level keeps this collection current and valuable.
 
