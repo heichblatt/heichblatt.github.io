@@ -13,7 +13,6 @@ ignoreErrors = ["error-remote-getjson"]
 [params]
   color = 'gray'   # linen, wheat, gray, light
 
-  twitter = 'heichblatt'
   github = 'heichblatt'
   linkedin = 'hanneseichblatt'
   mastodon = 'https://hachyderm.io/@heichblatt'
@@ -50,11 +49,6 @@ series = "series"
     disabled = false
     simple = true
 
-  [privacy.x]
-    disabled = false
-    enableDNT = true
-    simple = true
-
   [privacy.instagram]
     disabled = false
     simple = true
@@ -66,7 +60,4 @@ series = "series"
 [services]
 
   [services.instagram]
-    disableInlineCSS = true
-
-  [services.x]
     disableInlineCSS = true

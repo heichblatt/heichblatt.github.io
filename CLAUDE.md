@@ -75,7 +75,7 @@ tags:
 
 The site uses the lightweight **hugo-paper** theme (git submodule at `themes/hugo-paper/`). Configuration is in `hugo.toml`:
 - Color scheme: `gray` (options: linen, wheat, gray, light)
-- Social links: Twitter, GitHub, LinkedIn, Mastodon
+- Social links: GitHub, LinkedIn, Mastodon
 - Taxonomies: tags, categories, series
 
 The theme supports shortcodes like `{{< youtube VIDEO_ID >}}` for embedding YouTube videos.
