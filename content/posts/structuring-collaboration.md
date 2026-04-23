@@ -98,6 +98,4 @@ If you're an individual working with agent colleagues:
 
 Your adoption success depends on the structure your organization provides for employees and agents to collaborate most effectively. Clear collaboration patterns. Appropriate expectations by career level. Shared standards that evolve together. Not ad-hoc, not panicked. Intentional.
 
-That's the question this post tried to give a draft of an answer to.
-
 For deeper thinking on the collaboration patterns themselves, see my "[Four Modes of AI Collaboration](/posts/2026-04-12-four-modes-of-ai-collaboration/)" post. For a knowledge garden on this topic, check out my [AI Engagement Patterns](https://garden.hanneseichblatt.de/AI-Engagement-Patterns) notes.
