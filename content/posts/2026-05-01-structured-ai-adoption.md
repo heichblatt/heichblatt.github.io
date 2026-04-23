@@ -63,19 +63,21 @@ Let's zoom into operations to make this concrete.
 - Mid-level ops engineer: The AI understands their team's infrastructure, proactively suggests optimizations, becomes a second opinion.
 - Senior ops engineer: The AI becomes a research partner, understanding their architectural preferences and helping evaluate trade-offs.
 
-## Adoption by Career Level
+## How Career Levels Enable Adoption
 
-Within each function, career levels progress differently. Juniors need time to learn patterns; seniors know what "good" looks like and want to compress adoption faster.
+Different career levels play distinct roles in making AI adoption succeed across the organization. Rather than just progressing through modes individually, they maintain and improve the shared infrastructure that helps everyone else adopt.
 
-| Level | Entry Mode | First Transition | Full Adoption | Key Shift |
-|-------|-----------|-----------------|---------------|-----------|
-| **Junior** | Lookup | Workshop (Integration) | Companion | Learning moves faster; AI becomes a tutor |
-| **Mid-level** | Lookup/Workshop | Companion (Integration+) | Companion + light Mission | AI augments expertise; creates bandwidth |
-| **Senior** | Workshop | Companion (quickly) | Companion + Mission | AI becomes a strategic thinking partner |
-| **Tech Lead** | Workshop | Companion (parallel work) | Mission | AI handles execution details; leadership focuses on strategy |
-| **Architect** | Mission | Mission | Mission | AI explores options at architectural scale |
+- **Junior** - Use shared agent configurations, report and fix bugs. They're testing the shared standards in real work and feeding back improvements.
 
-This has organizational implications. If you force architects into Lookup mode, you're wasting expertise. If you throw juniors straight into Mission mode, they'll miss critical learning. Matching the mode to the career level matters.
+- **Mid-level** - Restructure and curate the collection of agent instructions. They're experienced enough to see patterns, spot redundancy, improve clarity.
+
+- **Senior** - Validate approaches and mentor others through transitions. They're the pattern-setters, ensuring practices are sound before they become standards.
+
+- **Tech Lead** - Align shared standards with other systems and regulations. They're ensuring agent configurations don't conflict with security, compliance, or operational requirements.
+
+- **Architect** - Design the infrastructure to share, version, and evolve instructions. They're thinking about how the organization scales this without chaos.
+
+This shared collection of agent instructions and configurations is your onboarding mechanism. When a new colleague joins, they don't start from zero—they inherit the team's accumulated patterns, standards, and configurations. Each career level keeps this collection current and valuable.
 
 ## Where to Go From Here
 
