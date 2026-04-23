@@ -1,14 +1,12 @@
 ---
 title: "Structuring Collaboration: AI Adoption as Agentic Onboarding"
-date: 2026-05-01
-draft: true
+date: 2026-04-23
+draft: false
 tags:
+  - tech
+  - comment
   - ai
-  - organizational
-  - framework
 ---
-
-## Intro
 
 You're leading a medium-sized tech organization -- 200-500 people across development, operations, analytics, and professional services. Your organization has decided to adopt AI capabilities strategically, not in a panic.
 
@@ -71,9 +69,9 @@ Human colleagues don't just progress through patterns themselves -- they maintai
 
 | Level | Personal Progression | Enablement Role |
 |-------|---------------------|-----------------|
-| **Junior** | Lookup → Workshop (Integration) | Use shared agent configurations, report and fix bugs. Test standards in real work, feed back improvements. |
-| **Mid-level** | Lookup/Workshop → Companion (Integration+) | Restructure and curate the collection of agent instructions. See patterns, spot redundancy, improve clarity. |
-| **Senior** | Workshop → Companion + Mission (quickly) | Validate approaches and mentor others through transitions. Pattern-setters ensuring practices are sound before becoming standards. |
+| **Junior** | Lookup → Workshop | Use shared agent configurations, report and fix bugs. Test standards in real work, feed back improvements. |
+| **Mid-level** | Lookup/Workshop → Companion | Restructure and curate the collection of agent instructions. See patterns, spot redundancy, improve clarity. |
+| **Senior** | Workshop → Companion + Mission | Validate approaches and mentor others through transitions. Pattern-setters ensuring practices are sound before becoming standards. |
 | **Tech Lead** | Workshop → Mission | Align shared standards with other systems and regulations. Ensure configurations don't conflict with security, compliance, or ops. |
 | **Architect** | Mission | Design infrastructure to share, version, and evolve instructions. Think about how the organization scales without chaos. |
 
@@ -97,3 +95,7 @@ If you're an individual working with agent colleagues:
 Your adoption success depends on the structure your organization provides for employees and agents to collaborate most effectively. Clear collaboration patterns. Appropriate expectations by career level. Shared standards that evolve together. Not ad-hoc, not panicked. Intentional.
 
 For deeper thinking on the collaboration patterns themselves, see my "[Four Modes of AI Collaboration](/posts/2026-04-12-four-modes-of-ai-collaboration/)" post. For a knowledge garden on this topic, check out my [AI Engagement Patterns](https://garden.hanneseichblatt.de/AI-Engagement-Patterns) notes.
+
+---
+
+*This post was written in collaboration with Claude Haiku, implementing the Workshop pattern described above.*
