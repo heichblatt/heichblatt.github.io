@@ -12,13 +12,13 @@ tags:
 
 You're leading a medium-sized tech organization -- 200-500 people across development, operations, analytics, and professional services. Your organization has decided to adopt AI capabilities strategically, not in a panic.
 
-Here's the useful reframe: AI adoption is agentic colleague onboarding. You're not just rolling out a tool -- you're integrating a new kind of colleague into the way your teams work. Agents that contribute to projects, inherit team practices, and collaborate with your people. The real question isn't "which AI tools should we buy?" but "how do we adapt our [collaboration practices](https://garden.hanneseichblatt.de/AI-Human-Collaboration) to work with these new colleagues?"
+The useful reframe: AI adoption is agentic colleague onboarding. You're integrating a new kind of colleague into the way your teams work. The real question isn't "which AI tools should we buy?" but "how do we adapt our [collaboration practices](https://garden.hanneseichblatt.de/AI-Human-Collaboration) to work with them?"
 
-The risk is chaos. Some teams collaborate with agents daily while others don't know where to start. Seniors experiment with ambitious collaboration patterns while juniors haven't figured out how to ask for help. What you need is *structure*: a shared model for how we work with agent colleagues, a roadmap for how teams adapt their practices, and clarity on each role's part in the onboarding.
+Without structure, you get chaos. Some teams collaborate with agents daily while others don't know where to start. Seniors experiment with ambitious patterns while juniors haven't figured out how to ask for help. What you need is a shared model for how you work with agent colleagues, a roadmap for how teams adapt, and clarity on each role's part in the onboarding.
 
 ## The Four Collaboration Patterns: A Shared Language
 
-First, you need a common vocabulary for *how* we work with agent colleagues. In my previous post, "[Four Modes of AI Collaboration](/posts/2026-04-12-four-modes-of-ai-collaboration/)," I outlined four collaboration patterns. These aren't a ladder of sophistication -- they're different ways of working together, each appropriate for different situations. For organizational adoption, they double as maturity levels: both the team and the agent grow into deeper patterns over time.
+Start with a shared vocabulary. In "[Four Modes of AI Collaboration](/posts/2026-04-12-four-modes-of-ai-collaboration/)," I outlined four patterns. They're not a ladder of sophistication -- they're different ways of working together. For organizational adoption, they double as maturity levels: both team and agent grow into deeper patterns over time.
 
 **The four patterns are:**
 
@@ -30,11 +30,11 @@ First, you need a common vocabulary for *how* we work with agent colleagues. In 
 
 4. **Mission** - You hand over a task definition and success criteria. A trusted agent colleague works autonomously, checking back at decision points. You manage by intent, not by directing steps. Think: "Refactor this module and report back when you have options for me to review."
 
-When you bring agent colleagues into your organization, you're building both **organizational capability** (can we integrate them into our tools, workflows, and infrastructure?) and **individual skill** (can people actually collaborate with them effectively?). Most teams start with Lookup-style interactions, develop Workshop-style collaboration, and eventually form Companion-level relationships. Some roles may never need Mission-level delegation; others will want it immediately.
+Bringing agent colleagues into your organization builds both **organizational capability** (tools, workflows, infrastructure) and **individual skill** (can people collaborate effectively?). Most teams start with Lookup, develop Workshop, and eventually form Companion relationships. Some roles never need Mission; others want it immediately.
 
 ## Onboarding Pathways: How Different Teams Integrate Agent Colleagues
 
-Different parts of your organization will onboard agent colleagues at different paces and around different collaboration patterns. Here's what a realistic progression looks like:
+Different parts of your organization will onboard agent colleagues at different paces and around different patterns:
 
 | Function | Onboarding | Integration | Maturity |
 |----------|------------|-------------|----------|
@@ -42,15 +42,13 @@ Different parts of your organization will onboard agent colleagues at different 
 | **Data + Analytics** | Lookup (SQL queries, formula help) | Workshop (exploratory analysis, dashboard building) | Companion (automated insights, anomaly detection) |
 | **Consulting** | Lookup (client research, proposal templates) | Workshop (proposal development, case analysis) | Mission (autonomous research projects with checkpoints) |
 
-**Why Dev + Ops integrates fastest:** Developers touch code every day, and agent colleagues are excellent at code tasks. The friction is lowest. You start with one-off requests (generate a boilerplate, review this pull request), then move into pair-programming sessions. Over time, an agent colleague who understands your architecture becomes a force multiplier.
+**Why Dev + Ops integrates fastest:** Developers touch code every day, and agents excel at code tasks. The friction is lowest. Over time, an agent that understands your architecture becomes a force multiplier.
 
-**Why Analytics is close behind:** Analysts deal with structured data and well-defined questions. Agent colleagues excel here too. The progression is similar: quick queries, collaborative analysis, then increasingly autonomous exploration.
+**Why Analytics is close behind:** Analysts deal with structured data and well-defined questions. The progression mirrors Dev + Ops.
 
-**Why Consulting takes a different path:** Consultants work with clients and nuance. Lookup starts with internal tools (research, templates), but the real value comes when an agent colleague can autonomously dig into a problem and surface options for the consultant to evaluate. This requires trust -- so onboarding is slower, but the endpoint (Mission-level delegation) is more powerful.
+**Why Consulting takes a different path:** Consultants work with clients and nuance. The real value comes when an agent can autonomously dig into a problem and surface options to evaluate. This requires trust, so onboarding is slower -- but the endpoint (Mission-level delegation) is more powerful.
 
-### What Does This Look Like in Practice? An Ops Example
-
-Let's zoom into operations to make this concrete.
+### An Ops Example
 
 **Onboarding: Lookup Mode**
 - Junior ops engineer: "How do I write a CloudFormation template for this RDS instance?" Agent provides a template. They modify and deploy.
@@ -69,7 +67,7 @@ Let's zoom into operations to make this concrete.
 
 ## How Career Levels Enable Adoption
 
-Human colleagues don't just progress through collaboration patterns themselves -- they also play distinct roles in onboarding and integrating new agent colleagues. They maintain and improve the shared infrastructure (instructions, configs, standards) that every new agent colleague inherits on day one.
+Human colleagues don't just progress through patterns themselves -- they maintain the shared infrastructure (instructions, configs, standards) that every new agent colleague inherits.
 
 | Level | Personal Progression | Enablement Role |
 |-------|---------------------|-----------------|
@@ -79,22 +77,22 @@ Human colleagues don't just progress through collaboration patterns themselves -
 | **Tech Lead** | Workshop → Mission | Align shared standards with other systems and regulations. Ensure configurations don't conflict with security, compliance, or ops. |
 | **Architect** | Mission | Design infrastructure to share, version, and evolve instructions. Think about how the organization scales without chaos. |
 
-This shared collection of agent instructions and configurations *is* the onboarding. It typically starts by copying team docs, then gets streamlined and collaboratively curated intra-team. Shared standards, shared agent configuration files. When a new agent colleague joins a team, they don't start from zero -- they inherit the team's accumulated patterns, standards, and ways of working. The same is true when a new human colleague joins: they get a working baseline of how this team collaborates with agents. Each career level keeps this living collection current and valuable.
+This shared collection *is* the onboarding. It typically starts as copied team docs, then gets streamlined and collaboratively curated intra-team. When a new agent colleague joins, they inherit the team's accumulated patterns and ways of working. The same holds for new human colleagues: a working baseline of how this team collaborates with agents. Each career level keeps the collection current.
 
 ## Where to Go From Here
 
 If you're an organization onboarding agent colleagues:
 
 - **Start with your most ready function.** Dev + Ops typically integrates fastest; get a success there, then expand.
-- **Make the collaboration patterns visible.** Share the four patterns internally. Help people understand that Lookup isn't "not collaborating effectively" -- it's the natural starting point, the way you work with any colleague on a quick question.
-- **Invest in the transitions.** Moving between collaboration patterns takes practice. Moving to Companion-level relationships requires building institutional knowledge that your agent colleagues can inherit.
-- **Treat shared agent instructions as living docs.** They are your team's working norms. Curate them deliberately. Review and improve them as you learn. They're how new colleagues -- human and agent -- get up to speed.
+- **Make the collaboration patterns visible.** Help people understand that Lookup isn't "not collaborating effectively" -- it's how you work with any colleague on a quick question.
+- **Invest in the transitions.** Moving between patterns takes practice. Moving to Companion requires building institutional knowledge your agent colleagues can inherit.
+- **Treat shared agent instructions as living docs.** They are your team's working norms. Curate them deliberately. They're how new colleagues -- human and agent -- get up to speed.
 
 If you're an individual working with agent colleagues:
 
-- **Understand how you currently collaborate.** Which pattern are you in? Are you comfortable there, or ready to try something new?
-- **Recognize that each pattern has value.** You won't always want Mission. Sometimes you need Lookup-style quick help. Sometimes you need Workshop-level thinking together. The skill is knowing when to use which.
-- **Push the boundaries of what's possible in your role.** If you're a mid-level analyst and see architects giving agent colleagues Mission-level assignments, that might be your path as you progress through Integration and into Maturity. Design your learning around getting there.
+- **Understand how you currently collaborate.** Which pattern are you in? Comfortable there, or ready to try something new?
+- **Recognize that each pattern has value.** You won't always want Mission. Sometimes you need Lookup; sometimes Workshop. The skill is knowing when to use which.
+- **Push the boundaries of what's possible in your role.** If you're a mid-level analyst watching architects give agents Mission-level assignments, that might be your path. Design your learning around getting there.
 
 Your adoption success depends on the structure your organization provides for employees and agents to collaborate most effectively. Clear collaboration patterns. Appropriate expectations by career level. Shared standards that evolve together. Not ad-hoc, not panicked. Intentional.
 
