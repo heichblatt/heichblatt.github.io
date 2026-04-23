@@ -100,4 +100,4 @@ Once again thanks to Jakob for helping me think.
 
 ---
 
-*This post was written in collaboration with Claude Haiku, implementing the Workshop pattern described above.*
+*This post was written in collaboration with Claude, implementing the Workshop pattern described above.*
