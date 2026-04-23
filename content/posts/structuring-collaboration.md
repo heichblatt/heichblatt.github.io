@@ -96,6 +96,22 @@ Your adoption success depends on the structure your organization provides for em
 
 For deeper thinking on the collaboration patterns themselves, see my "[Four Modes of AI Collaboration](/posts/2026-04-12-four-modes-of-ai-collaboration/)" post. For a knowledge garden on this topic, check out my [AI Engagement Patterns](https://garden.hanneseichblatt.de/AI-Engagement-Patterns) notes.
 
+## Further Reading
+
+- [ctx: "The FermAI Paradox"](https://ctx.rs/blog/the-fermai-paradox) — An Agentic Development Environment must replace traditional IDEs to enable teams to effectively supervise multiple agents at scale.
+
+- [Martin Fowler: "Reduce Friction with AI: Encoding Team Standards"](https://martinfowler.com/articles/reduce-friction-ai/encoding-team-standards.html) — Teams should encode their working norms into versioned, executable instructions rather than relying on tacit senior knowledge.
+
+- [Product Talk: "Give Claude Code a Memory"](https://www.producttalk.org/give-claude-code-a-memory/) — Persistent memory systems transform AI from generic tool to trusted advisor by maintaining business context across sessions.
+
+- [Maggie Appleton: "Zero-Alignment"](https://maggieappleton.com/zero-alignment/) — Teams need collaborative alignment tools where agents work alongside humans in shared planning spaces, not solo coding agents with retrospective review.
+
+- [InfraLovers: "AI-gestützte Wissensarbeit"](https://www.infralovers.com/blog/2026-02-14-ai-gestuetzte-wissensarbeit-schreibprozess/) — Effective AI integration requires rebuilding workflows around agent capabilities; the tool enables change only if you reshape how work flows.
+
+- [Carl Franzen (VentureBeat): "Karpathy shares 'LLM Knowledge Base' architecture that bypasses RAG"](https://venturebeat.com/data/karpathy-shares-llm-knowledge-base-architecture-that-bypasses-rag-with-an) — LLMs maintain evolving markdown libraries as persistent, self-healing institutional memory—an AI librarian that compiles, interlocks, and validates knowledge across sessions and agents.
+
+- [Sebastian Raschka: "Components of a Coding Agent"](https://magazine.sebastianraschka.com/p/components-of-a-coding-agent) — Harness design (live context, caching, structured tools, bounded subagents) determines real-world agent performance more than model selection alone.
+
 Once again thanks to Jakob for helping me think.
 
 ---
