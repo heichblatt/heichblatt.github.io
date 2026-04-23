@@ -10,11 +10,11 @@ tags:
 
 ## Intro
 
-You're leading a medium-sized tech organization—200-500 people across development, operations, analytics, and professional services. Leadership has decided: we need AI capabilities, strategically, not in a panic. The risk is chaos. Some teams use AI daily while others don't know what's available. Seniors jump to ambitious use cases while juniors haven't found the starting line. What you need is *structure*: a shared model for what adoption means, a roadmap for how teams progress, and clarity on each role's path.
+You're leading a medium-sized tech organization -- 200-500 people across development, operations, analytics, and professional services. Your organization has decided to adopt AI capabilities but wants to do this strategically, not in a panic. The risk is chaos. Some teams use AI daily while others don't know what's available. Seniors jump to ambitious use cases while juniors haven't found the starting line. What you need is *structure*: a shared model for what adoption means, a roadmap for how teams progress, and clarity on each role's path.
 
 ## The Four Engagement Modes: A Shared Language
 
-First, you need a common vocabulary. In my previous post, "[Four Modes of AI Collaboration](/posts/2026-04-12-four-modes-of-ai-collaboration/)," I outlined a framework for how humans and AI agents work together. These aren't a ladder of sophistication—they're different tools for different purposes. But when thinking about organizational adoption, they function as *maturity levels*.
+First, you need a common vocabulary. In my previous post, "[Four Modes of AI Collaboration](/posts/2026-04-12-four-modes-of-ai-collaboration/)," I outlined a framework for how humans and AI agents work together. These aren't a ladder of sophistication -- they're different tools for different purposes. But when thinking about organizational adoption, they function as *maturity levels*.
 
 **The four modes are:**
 
@@ -30,7 +30,7 @@ When you introduce AI across an organization, you're building both **organizatio
 
 ## Adoption Pathways: How Different Functions Introduce AI
 
-Different parts of your organization will adopt AI at different paces and for different reasons. Here's what a realistic adoption timeline looks like:
+Different parts of your organization will adopt AI at different paces and for different reasons. Here's what a realistic adoption progression looks like:
 
 | Function | Onboarding | Integration | Maturity |
 |----------|----------------|-----------|---------|
@@ -42,7 +42,7 @@ Different parts of your organization will adopt AI at different paces and for di
 
 **Why Analytics is close behind:** Analysts deal with structured data and well-defined questions. AI excels here too. The progression is similar: quick queries, collaborative analysis, then increasingly autonomous exploration.
 
-**Why Consulting takes a different path:** Consultants work with clients and nuance. Lookup mode starts with internal tools (research, templates), but the real value comes when AI can autonomously dig into a problem and surface options for the consultant to evaluate. This requires trust—so adoption is slower, but the endpoint (Mission mode) is more powerful.
+**Why Consulting takes a different path:** Consultants work with clients and nuance. Lookup mode starts with internal tools (research, templates), but the real value comes when AI can autonomously dig into a problem and surface options for the consultant to evaluate. This requires trust -- so adoption is slower, but the endpoint (Mission mode) is more powerful.
 
 ### What Does This Look Like in Practice? An Ops Example
 
@@ -82,7 +82,7 @@ This has organizational implications. If you force architects into Lookup mode, 
 If you're an organization planning this journey:
 
 - **Start with your most AI-ready function.** Dev + Ops is typically easiest; get a success there, then expand.
-- **Make the progression visible.** Share the modes framework internally. Help people understand that Lookup isn't "not using AI effectively"—it's just the starting point.
+- **Make the progression visible.** Share the modes framework internally. Help people understand that Lookup isn't "not using AI effectively" -- it's just the starting point.
 - **Invest in the transitions.** Moving between phases requires training. Moving to Companion requires building institutional knowledge of what your AI assistants understand about your organization.
 - **Let career level drive mode adoption.** Don't mandate that everyone reaches Companion mode by Integration phase. Let architects move fast; give juniors time to learn.
 
@@ -92,6 +92,6 @@ If you're an individual in this transition:
 - **Recognize that each mode has value.** You won't always want Mission mode. Sometimes you need to focus and Lookup is perfect. Sometimes you need to learn, and Workshop forces engagement. The skill is knowing when to use which.
 - **Push the boundaries of what's possible in your role.** If you're a mid-level analyst and see architects using Mission mode, that might be your path as you progress through Integration and into Maturity. Design your learning around getting there.
 
-The organizations that will succeed with AI are the ones that adopt it *structurally*—with clear progressions, age-appropriate expectations, and a shared language for what they're building toward. Not ad-hoc, not panicked. Intentional.
+The organizations that will succeed with AI are the ones that adopt it *structurally* -- with clear progressions, age-appropriate expectations, and a shared language for what they're building toward. Not ad-hoc, not panicked. Intentional.
 
 For deeper thinking on the modes themselves, see my "[Four Modes of AI Collaboration](/posts/2026-04-12-four-modes-of-ai-collaboration/)" post. For a knowledge garden on this topic, check out my [AI Engagement Patterns](https://garden.hanneseichblatt.de/AI-Engagement-Patterns) notes.
