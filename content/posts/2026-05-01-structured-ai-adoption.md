@@ -10,9 +10,7 @@ tags:
 
 ## Intro
 
-Imagine you're leading a medium-sized tech organization—200-500 people across development, operations, analytics, and professional services. Leadership has decided: we need AI capabilities. Strategically, not in a panic.
-
-The risk is chaos. Some teams use AI daily while others don't know what's available. Seniors jump to ambitious use cases while juniors haven't found the starting line. What you need is *structure*: a shared model for what adoption means, a roadmap for how teams progress, and clarity on each role's path.
+You're leading a medium-sized tech organization—200-500 people across development, operations, analytics, and professional services. Leadership has decided: we need AI capabilities, strategically, not in a panic. The risk is chaos. Some teams use AI daily while others don't know what's available. Seniors jump to ambitious use cases while juniors haven't found the starting line. What you need is *structure*: a shared model for what adoption means, a roadmap for how teams progress, and clarity on each role's path.
 
 ## The Four Engagement Modes: A Shared Language
 
@@ -34,7 +32,7 @@ When you introduce AI across an organization, you're building both **organizatio
 
 Different parts of your organization will adopt AI at different paces and for different reasons. Here's what a realistic adoption timeline looks like:
 
-| Function | First 6 Months | Months 6-12 | Year 2+ |
+| Function | Onboarding | Integration | Maturity |
 |----------|----------------|-----------|---------|
 | **Dev + Ops** | Lookup (code snippets, debugging) | Workshop (pair programming, architecture review) | Companion (AI learns codebase, refactoring automation) |
 | **Data + Analytics** | Lookup (SQL queries, formula help) | Workshop (exploratory analysis, dashboard building) | Companion (automated insights, anomaly detection) |
@@ -50,34 +48,32 @@ Different parts of your organization will adopt AI at different paces and for di
 
 Let's zoom into operations to make this concrete.
 
-**Months 1-3: Lookup Mode**
+**Onboarding: Lookup Mode**
 - Junior ops engineer: "How do I write a CloudFormation template for this RDS instance?" AI provides a template. They modify and deploy.
 - Mid-level ops engineer: "What's causing this latency spike?" AI analyzes logs, suggests hypotheses.
 - Senior ops engineer: "I need to audit our SSL certificate chain." AI writes the audit script.
 
-**Months 4-6: Workshop Mode**
+**Integration: Workshop Mode**
 - Junior ops engineer: Collaborates with AI on writing an automation script. Learns patterns and approaches by working alongside it.
 - Mid-level ops engineer: Works with AI to design a monitoring dashboard. Back-and-forth conversation to get it right.
 - Senior ops engineer: Uses AI to explore a system redesign. Brainstorming and scenario testing together.
 
-**Months 6+: Companion Mode**
+**Maturity: Companion Mode**
 - Junior ops engineer: The AI knows their common tasks, suggests improvements, catches mistakes in their scripts.
 - Mid-level ops engineer: The AI understands their team's infrastructure, proactively suggests optimizations, becomes a second opinion.
 - Senior ops engineer: The AI becomes a research partner, understanding their architectural preferences and helping evaluate trade-offs.
 
 ## Adoption by Career Level
 
-Within each function, career levels progress differently.
+Within each function, career levels progress differently. Juniors need time to learn patterns; seniors know what "good" looks like and want to compress adoption faster.
 
 | Level | Entry Mode | First Transition | Full Adoption | Key Shift |
 |-------|-----------|-----------------|---------------|-----------|
-| **Junior** | Lookup | Workshop (after 3-4 months) | Companion | Learning moves faster; AI becomes a tutor |
-| **Mid-level** | Lookup/Workshop | Companion (6+ months) | Companion + light Mission | AI augments expertise; creates bandwidth |
+| **Junior** | Lookup | Workshop (Integration) | Companion | Learning moves faster; AI becomes a tutor |
+| **Mid-level** | Lookup/Workshop | Companion (Integration+) | Companion + light Mission | AI augments expertise; creates bandwidth |
 | **Senior** | Workshop | Companion (quickly) | Companion + Mission | AI becomes a strategic thinking partner |
 | **Tech Lead** | Workshop | Companion (parallel work) | Mission | AI handles execution details; leadership focuses on strategy |
 | **Architect** | Mission | Mission | Mission | AI explores options at architectural scale |
-
-The insight here: **junior staff need longer in Lookup and Workshop to learn patterns. Senior staff want to compress into Companion/Mission faster because they already know what "good" looks like.**
 
 This has organizational implications. If you force architects into Lookup mode, you're wasting expertise. If you throw juniors straight into Mission mode, they'll miss critical learning. Matching the mode to the career level matters.
 
@@ -87,14 +83,14 @@ If you're an organization planning this journey:
 
 - **Start with your most AI-ready function.** Dev + Ops is typically easiest; get a success there, then expand.
 - **Make the progression visible.** Share the modes framework internally. Help people understand that Lookup isn't "not using AI effectively"—it's just the starting point.
-- **Invest in the transitions.** Moving from Lookup to Workshop requires training. Moving to Companion requires building institutional knowledge of what your AI assistants understand about your organization.
-- **Let career level drive mode adoption.** Don't mandate that everyone reaches Companion mode by month 12. Let architects move fast; give juniors time to learn.
+- **Invest in the transitions.** Moving between phases requires training. Moving to Companion requires building institutional knowledge of what your AI assistants understand about your organization.
+- **Let career level drive mode adoption.** Don't mandate that everyone reaches Companion mode by Integration phase. Let architects move fast; give juniors time to learn.
 
 If you're an individual in this transition:
 
 - **Understand where you are.** Which mode are you currently using? Are you comfortable there, or ready to progress?
 - **Recognize that each mode has value.** You won't always want Mission mode. Sometimes you need to focus and Lookup is perfect. Sometimes you need to learn, and Workshop forces engagement. The skill is knowing when to use which.
-- **Push the boundaries of what's possible in your role.** If you're a mid-level analyst and see architects using Mission mode, that might be your path in 6-12 months. Design your learning around getting there.
+- **Push the boundaries of what's possible in your role.** If you're a mid-level analyst and see architects using Mission mode, that might be your path as you progress through Integration and into Maturity. Design your learning around getting there.
 
 The organizations that will succeed with AI are the ones that adopt it *structurally*—with clear progressions, age-appropriate expectations, and a shared language for what they're building toward. Not ad-hoc, not panicked. Intentional.
 
