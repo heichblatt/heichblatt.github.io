@@ -10,7 +10,7 @@ tags:
 
 You're leading a medium-sized tech organization -- 200-500 people across development, operations, analytics, and professional services. Your organization has decided to adopt AI capabilities strategically, not in a panic.
 
-The useful reframe: AI adoption is agentic colleague onboarding. You're integrating a new kind of colleague into the way your teams work. The real question isn't "which AI tools should we buy?" but "how do we adapt our [collaboration practices](https://garden.hanneseichblatt.de/AI-Human-Collaboration) to work with them?"
+I think we need to reframe this: [AI adoption is agentic colleague onboarding.](https://garden.hanneseichblatt.de/AI-Human-Collaboration) You're integrating a new kind of colleague into the way your teams work. The real question isn't "which AI tools should we buy?" but "how do we adapt our [collaboration practices](https://garden.hanneseichblatt.de/AI-Human-Collaboration) to work with them?"
 
 Without structure, you get chaos. Some teams collaborate with agents daily while others don't know where to start. Seniors experiment with ambitious patterns while juniors haven't figured out how to ask for help. What you need is a shared model for how you work with agent colleagues, a roadmap for how teams adapt, and clarity on each role's part in the onboarding.
 
