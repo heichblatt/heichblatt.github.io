@@ -1,5 +1,5 @@
 ---
-title: "Thoughts on Structured AI Adoption"
+title: "Structuring Collaboration: AI Adoption as Agentic Onboarding"
 date: 2026-05-01
 draft: true
 tags:
