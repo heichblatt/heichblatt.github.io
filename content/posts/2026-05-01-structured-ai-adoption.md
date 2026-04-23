@@ -12,7 +12,7 @@ tags:
 
 You're leading a medium-sized tech organization -- 200-500 people across development, operations, analytics, and professional services. Your organization has decided to adopt AI capabilities strategically, not in a panic.
 
-Here's the useful reframe: AI adoption is agentic colleague onboarding. You're not just rolling out a tool -- you're integrating a new kind of colleague into the way your teams work. Agents that contribute to projects, inherit team practices, and collaborate with your people. The real question isn't "which AI tools should we buy?" but "how do we adapt our collaboration practices to work with these new colleagues?"
+Here's the useful reframe: AI adoption is agentic colleague onboarding. You're not just rolling out a tool -- you're integrating a new kind of colleague into the way your teams work. Agents that contribute to projects, inherit team practices, and collaborate with your people. The real question isn't "which AI tools should we buy?" but "how do we adapt our [collaboration practices](https://garden.hanneseichblatt.de/AI-Human-Collaboration) to work with these new colleagues?"
 
 The risk is chaos. Some teams collaborate with agents daily while others don't know where to start. Seniors experiment with ambitious collaboration patterns while juniors haven't figured out how to ask for help. What you need is *structure*: a shared model for how we work with agent colleagues, a roadmap for how teams adapt their practices, and clarity on each role's part in the onboarding.
 
@@ -100,4 +100,4 @@ Your adoption success depends on the structure your organization provides for em
 
 That's the question this post tried to give a draft of an answer to.
 
-For deeper thinking on the collaboration patterns themselves, see my "[Four Modes of AI Collaboration](/posts/2026-04-12-four-modes-of-ai-collaboration/)" post. For broader notes on [AI-Human Collaboration](https://garden.hanneseichblatt.de/AI-Human-Collaboration) and the [AI Engagement Patterns](https://garden.hanneseichblatt.de/AI-Engagement-Patterns) framework, check out my knowledge garden.
+For deeper thinking on the collaboration patterns themselves, see my "[Four Modes of AI Collaboration](/posts/2026-04-12-four-modes-of-ai-collaboration/)" post. For a knowledge garden on this topic, check out my [AI Engagement Patterns](https://garden.hanneseichblatt.de/AI-Engagement-Patterns) notes.
