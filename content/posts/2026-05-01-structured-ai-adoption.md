@@ -10,62 +10,66 @@ tags:
 
 ## Intro
 
-You're leading a medium-sized tech organization -- 200-500 people across development, operations, analytics, and professional services. Your organization has decided to adopt AI capabilities but wants to do this strategically, not in a panic. The risk is chaos. Some teams use AI daily while others don't know what's available. Seniors jump to ambitious use cases while juniors haven't found the starting line. What you need is *structure*: a shared model for what adoption means, a roadmap for how teams progress, and clarity on each role's path.
+You're leading a medium-sized tech organization -- 200-500 people across development, operations, analytics, and professional services. Your organization has decided to adopt AI capabilities strategically, not in a panic.
 
-## The Four Engagement Modes: A Shared Language
+Here's the useful reframe: AI adoption is agentic colleague onboarding. You're not just rolling out a tool -- you're integrating a new kind of colleague into the way your teams work. Agents that contribute to projects, inherit team practices, and collaborate with your people. The real question isn't "which AI tools should we buy?" but "how do we adapt our collaboration practices to work with these new colleagues?"
 
-First, you need a common vocabulary. In my previous post, "[Four Modes of AI Collaboration](/posts/2026-04-12-four-modes-of-ai-collaboration/)," I outlined a framework for how humans and AI agents work together. These aren't a ladder of sophistication -- they're different tools for different purposes. But when thinking about organizational adoption, they function as *maturity levels*.
+The risk is chaos. Some teams collaborate with agents daily while others don't know where to start. Seniors experiment with ambitious collaboration patterns while juniors haven't figured out how to ask for help. What you need is *structure*: a shared model for how we work with agent colleagues, a roadmap for how teams adapt their practices, and clarity on each role's part in the onboarding.
 
-**The four modes are:**
+## The Four Collaboration Patterns: A Shared Language
 
-1. **Lookup** - You ask specific questions with full context. The AI provides information or completes well-defined tasks. Sessions are stateless; each interaction is independent. Think: "How do I implement OAuth?" or "Generate a test for this function."
+First, you need a common vocabulary for *how* we work with agent colleagues. In my previous post, "[Four Modes of AI Collaboration](/posts/2026-04-12-four-modes-of-ai-collaboration/)," I outlined four collaboration patterns. These aren't a ladder of sophistication -- they're different ways of working together, each appropriate for different situations. For organizational adoption, they double as maturity levels: both the team and the agent grow into deeper patterns over time.
 
-2. **Workshop** - You and the AI collaborate on a problem within a session. Context persists while you're working together, but it's discarded afterward. Good for coding together, drafting documents, exploring ideas. Think: "Let's build this feature together" or "Help me think through this proposal."
+**The four patterns are:**
 
-3. **Companion** - The AI builds understanding across sessions. It learns your patterns, preferences, how you like to work. You develop a working relationship. Think: an AI that knows your codebase, your communication style, your current projects.
+1. **Lookup** - You ask an agent colleague a specific question with full context. They provide information or complete a well-defined task. Each interaction stands alone. Think: "How do I implement OAuth?" or "Generate a test for this function."
 
-4. **Mission** - You hand over a task definition and success criteria. The AI works autonomously, checking back at decision points. You manage by intent, not by directing steps. Think: "Refactor this module and report back when you have options for me to review."
+2. **Workshop** - You and an agent colleague work on a problem together within a session. Context persists while you're collaborating, but isn't carried over afterward. Good for coding together, drafting documents, exploring ideas. Think: "Let's build this feature together" or "Help me think through this proposal."
 
-When you introduce AI across an organization, you're building both **organizational capability** (can we provide these tools and environments?) and **individual skill** (can people use them effectively?). Early employees might start in Lookup mode, then progress to Workshop, and eventually Companion. Some roles may never need Mission mode; others will want it immediately.
+3. **Companion** - An agent colleague builds understanding across sessions. They learn your patterns, preferences, how you work. You develop a working relationship. Think: a colleague who knows your codebase, your communication style, your current projects.
 
-## Adoption Pathways: How Different Functions Introduce AI
+4. **Mission** - You hand over a task definition and success criteria. A trusted agent colleague works autonomously, checking back at decision points. You manage by intent, not by directing steps. Think: "Refactor this module and report back when you have options for me to review."
 
-Different parts of your organization will adopt AI at different paces and for different reasons. Here's what a realistic adoption progression looks like:
+When you bring agent colleagues into your organization, you're building both **organizational capability** (can we integrate them into our tools, workflows, and infrastructure?) and **individual skill** (can people actually collaborate with them effectively?). Most teams start with Lookup-style interactions, develop Workshop-style collaboration, and eventually form Companion-level relationships. Some roles may never need Mission-level delegation; others will want it immediately.
+
+## Onboarding Pathways: How Different Teams Integrate Agent Colleagues
+
+Different parts of your organization will onboard agent colleagues at different paces and around different collaboration patterns. Here's what a realistic progression looks like:
 
 | Function | Onboarding | Integration | Maturity |
-|----------|----------------|-----------|---------|
-| **Dev + Ops** | Lookup (code snippets, debugging) | Workshop (pair programming, architecture review) | Companion (AI learns codebase, refactoring automation) |
+|----------|------------|-------------|----------|
+| **Dev + Ops** | Lookup (code snippets, debugging) | Workshop (pair programming, architecture review) | Companion (agent learns codebase, refactoring automation) |
 | **Data + Analytics** | Lookup (SQL queries, formula help) | Workshop (exploratory analysis, dashboard building) | Companion (automated insights, anomaly detection) |
 | **Consulting** | Lookup (client research, proposal templates) | Workshop (proposal development, case analysis) | Mission (autonomous research projects with checkpoints) |
 
-**Why Dev + Ops adopts fastest:** Developers interact with code every day, and AI is excellent at code tasks. The friction is lowest. You start with one-off tasks (generate a boilerplate, review this pull request), then move to collaborative coding sessions. Over time, an AI companion that understands your architecture becomes a force multiplier.
+**Why Dev + Ops integrates fastest:** Developers touch code every day, and agent colleagues are excellent at code tasks. The friction is lowest. You start with one-off requests (generate a boilerplate, review this pull request), then move into pair-programming sessions. Over time, an agent colleague who understands your architecture becomes a force multiplier.
 
-**Why Analytics is close behind:** Analysts deal with structured data and well-defined questions. AI excels here too. The progression is similar: quick queries, collaborative analysis, then increasingly autonomous exploration.
+**Why Analytics is close behind:** Analysts deal with structured data and well-defined questions. Agent colleagues excel here too. The progression is similar: quick queries, collaborative analysis, then increasingly autonomous exploration.
 
-**Why Consulting takes a different path:** Consultants work with clients and nuance. Lookup mode starts with internal tools (research, templates), but the real value comes when AI can autonomously dig into a problem and surface options for the consultant to evaluate. This requires trust -- so adoption is slower, but the endpoint (Mission mode) is more powerful.
+**Why Consulting takes a different path:** Consultants work with clients and nuance. Lookup starts with internal tools (research, templates), but the real value comes when an agent colleague can autonomously dig into a problem and surface options for the consultant to evaluate. This requires trust -- so onboarding is slower, but the endpoint (Mission-level delegation) is more powerful.
 
 ### What Does This Look Like in Practice? An Ops Example
 
 Let's zoom into operations to make this concrete.
 
 **Onboarding: Lookup Mode**
-- Junior ops engineer: "How do I write a CloudFormation template for this RDS instance?" AI provides a template. They modify and deploy.
-- Mid-level ops engineer: "What's causing this latency spike?" AI analyzes logs, suggests hypotheses.
-- Senior ops engineer: "I need to audit our SSL certificate chain." AI writes the audit script.
+- Junior ops engineer: "How do I write a CloudFormation template for this RDS instance?" Agent provides a template. They modify and deploy.
+- Mid-level ops engineer: "What's causing this latency spike?" Agent analyzes logs, suggests hypotheses.
+- Senior ops engineer: "I need to audit our SSL certificate chain." Agent writes the audit script.
 
 **Integration: Workshop Mode**
-- Junior ops engineer: Collaborates with AI on writing an automation script. Learns patterns and approaches by working alongside it.
-- Mid-level ops engineer: Works with AI to design a monitoring dashboard. Back-and-forth conversation to get it right.
-- Senior ops engineer: Uses AI to explore a system redesign. Brainstorming and scenario testing together.
+- Junior ops engineer: Collaborates with an agent on writing an automation script. Learns patterns and approaches by working alongside it.
+- Mid-level ops engineer: Works with an agent colleague to design a monitoring dashboard. Back-and-forth conversation to get it right.
+- Senior ops engineer: Uses an agent to explore a system redesign. Brainstorming and scenario testing together.
 
 **Maturity: Companion Mode**
-- Junior ops engineer: The AI knows their common tasks, suggests improvements, catches mistakes in their scripts.
-- Mid-level ops engineer: The AI understands their team's infrastructure, proactively suggests optimizations, becomes a second opinion.
-- Senior ops engineer: The AI becomes a research partner, understanding their architectural preferences and helping evaluate trade-offs.
+- Junior ops engineer: The agent knows their common tasks, suggests improvements, catches mistakes in their scripts.
+- Mid-level ops engineer: The agent understands their team's infrastructure, proactively suggests optimizations, becomes a second opinion.
+- Senior ops engineer: The agent becomes a research partner, understanding their architectural preferences and helping evaluate trade-offs.
 
 ## How Career Levels Enable Adoption
 
-Different career levels progress through modes at different paces, and they also play distinct roles in making adoption succeed across the organization. They maintain and improve the shared infrastructure that helps everyone else adopt.
+Human colleagues don't just progress through collaboration patterns themselves -- they also play distinct roles in onboarding and integrating new agent colleagues. They maintain and improve the shared infrastructure (instructions, configs, standards) that every new agent colleague inherits on day one.
 
 | Level | Personal Progression | Enablement Role |
 |-------|---------------------|-----------------|
@@ -75,23 +79,23 @@ Different career levels progress through modes at different paces, and they also
 | **Tech Lead** | Workshop → Mission | Align shared standards with other systems and regulations. Ensure configurations don't conflict with security, compliance, or ops. |
 | **Architect** | Mission | Design infrastructure to share, version, and evolve instructions. Think about how the organization scales without chaos. |
 
-This shared collection of agent instructions and configurations is your onboarding mechanism. When a new colleague joins, they don't start from zero—they inherit the team's accumulated patterns, standards, and configurations. Each career level keeps this collection current and valuable.
+This shared collection of agent instructions and configurations *is* the onboarding. It typically starts by copying team docs, then gets streamlined and collaboratively curated intra-team. Shared standards, shared agent configuration files. When a new agent colleague joins a team, they don't start from zero -- they inherit the team's accumulated patterns, standards, and ways of working. The same is true when a new human colleague joins: they get a working baseline of how this team collaborates with agents. Each career level keeps this living collection current and valuable.
 
 ## Where to Go From Here
 
-If you're an organization planning this journey:
+If you're an organization onboarding agent colleagues:
 
-- **Start with your most AI-ready function.** Dev + Ops is typically easiest; get a success there, then expand.
-- **Make the progression visible.** Share the modes framework internally. Help people understand that Lookup isn't "not using AI effectively" -- it's just the starting point.
-- **Invest in the transitions.** Moving between phases requires training. Moving to Companion requires building institutional knowledge of what your AI assistants understand about your organization.
-- **Let career level drive mode adoption.** Don't mandate that everyone reaches Companion mode by Integration phase. Let architects move fast; give juniors time to learn.
+- **Start with your most ready function.** Dev + Ops typically integrates fastest; get a success there, then expand.
+- **Make the collaboration patterns visible.** Share the four patterns internally. Help people understand that Lookup isn't "not collaborating effectively" -- it's the natural starting point, the way you work with any colleague on a quick question.
+- **Invest in the transitions.** Moving between collaboration patterns takes practice. Moving to Companion-level relationships requires building institutional knowledge that your agent colleagues can inherit.
+- **Treat shared agent instructions as living docs.** They are your team's working norms. Curate them deliberately. Review and improve them as you learn. They're how new colleagues -- human and agent -- get up to speed.
 
-If you're an individual in this transition:
+If you're an individual working with agent colleagues:
 
-- **Understand where you are.** Which mode are you currently using? Are you comfortable there, or ready to progress?
-- **Recognize that each mode has value.** You won't always want Mission mode. Sometimes you need to focus and Lookup is perfect. Sometimes you need to learn, and Workshop forces engagement. The skill is knowing when to use which.
-- **Push the boundaries of what's possible in your role.** If you're a mid-level analyst and see architects using Mission mode, that might be your path as you progress through Integration and into Maturity. Design your learning around getting there.
+- **Understand how you currently collaborate.** Which pattern are you in? Are you comfortable there, or ready to try something new?
+- **Recognize that each pattern has value.** You won't always want Mission. Sometimes you need Lookup-style quick help. Sometimes you need Workshop-level thinking together. The skill is knowing when to use which.
+- **Push the boundaries of what's possible in your role.** If you're a mid-level analyst and see architects giving agent colleagues Mission-level assignments, that might be your path as you progress through Integration and into Maturity. Design your learning around getting there.
 
-The organizations that will succeed with AI are the ones that adopt it *structurally* -- with clear progressions, age-appropriate expectations, and a shared language for what they're building toward. Not ad-hoc, not panicked. Intentional.
+The organizations that succeed with agent colleagues are the ones that treat this as integration, not installation. Clear collaboration patterns, appropriate expectations by career level, shared standards that evolve together. Not ad-hoc, not panicked. Intentional onboarding.
 
-For deeper thinking on the modes themselves, see my "[Four Modes of AI Collaboration](/posts/2026-04-12-four-modes-of-ai-collaboration/)" post. For a knowledge garden on this topic, check out my [AI Engagement Patterns](https://garden.hanneseichblatt.de/AI-Engagement-Patterns) notes.
+For deeper thinking on the collaboration patterns themselves, see my "[Four Modes of AI Collaboration](/posts/2026-04-12-four-modes-of-ai-collaboration/)" post. For a knowledge garden on this topic, check out my [AI Engagement Patterns](https://garden.hanneseichblatt.de/AI-Engagement-Patterns) notes.
