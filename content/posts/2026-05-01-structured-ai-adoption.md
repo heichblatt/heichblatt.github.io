@@ -8,15 +8,11 @@ tags:
   - framework
 ---
 
-## Setting the Scene
+## Intro
 
-Imagine you're leading a medium-sized tech organization—maybe 200-500 people, with development teams, operations, analytics, and professional services. Your leadership has decided: we need to introduce AI capabilities. Not in a panicked, "let's try everything" way, but strategically.
+Imagine you're leading a medium-sized tech organization—200-500 people across development, operations, analytics, and professional services. Leadership has decided: we need AI capabilities. Strategically, not in a panic.
 
-The risk you're trying to avoid is chaos. Ad-hoc adoption where some teams use AI daily while others aren't sure what's available. Individual contributors getting AI tools before their managers know how to guide their use. Senior engineers jumping straight to ambitious use cases while juniors are still figuring out what AI can do.
-
-What you need is *structure*: a shared mental model for what "adoption" actually means, a roadmap for how different teams progress, and clarity on what each role looks like in this transition.
-
-That's what this post explores.
+The risk is chaos. Some teams use AI daily while others don't know what's available. Seniors jump to ambitious use cases while juniors haven't found the starting line. What you need is *structure*: a shared model for what adoption means, a roadmap for how teams progress, and clarity on each role's path.
 
 ## The Four Engagement Modes: A Shared Language
 
