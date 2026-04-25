@@ -53,9 +53,17 @@ Agents run on a schedule — they wake, check work, act, and exit. They don't ru
 
 This is the trust architecture Mission requires. High autonomy between check-ins, hard stops at defined limits, full override capability for the board.
 
+## Why this is Mission, not Workshop
+
+Workshop collaboration happens within a session. You and the agent are both present, working through a problem together — context exists only while you're in the conversation.
+
+Paperclip is explicitly designed for when you're not there. Agents run on a schedule called a heartbeat: they wake up, check the ticket system, do work, post an update, and exit. No persistent session. No human in the loop unless a decision gate is hit. The context isn't held in memory — it lives in the issue, the project, the goal, and the comment thread. It's there when the agent wakes up an hour later, or a day later, or after a reboot.
+
+That's the structural difference. Workshop requires your presence. Mission requires your trust — and a system that makes the work legible after the fact. Paperclip is built around legibility: every action is logged, every status change is explained, every decision is traceable. You can walk away and come back to a full audit trail of what happened and why.
+
 ## The upshot
 
-Mission delegation fails when the answer to any of these questions is unclear: *What is the agent working on? How does it know when it's done? When does it escalates?*
+Mission delegation fails when the answer to any of these questions is unclear: *What is the agent working on? How does it know when it's done? When does it escalate?*
 
 Paperclip makes all three answerable by default — through structured issues, status semantics, and the approval flow. You don't configure Mission mode. You just use the system as designed.
 
