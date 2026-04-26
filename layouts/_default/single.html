@@ -24,6 +24,9 @@ Upstream issue: https://github.com/nanxiaobei/hugo-paper/issues/265
       <span class="mx-1">&middot;</span>
       <span>{{- $single_author -}}</span>
       {{- end -}}
+      <span class="mx-1">&middot;</span>
+      <a href="https://github.com/heichblatt/heichblatt.github.io/commits/master/content/{{- .File.Path -}}"
+         class="no-underline hover:underline">File history</a>
     </div>
     {{- end -}}
   </header>
@@ -44,14 +47,6 @@ Upstream issue: https://github.com/nanxiaobei/hugo-paper/issues/265
     >
     {{- end -}}
   </footer>
-  {{- end -}}
-
-  <!-- File History -->
-  {{- if ne .Type "page" -}}
-  <div class="mt-6 text-xs opacity-60">
-    <a href="https://github.com/heichblatt/heichblatt.github.io/commits/master/content/{{- .File.Path -}}"
-       class="no-underline hover:underline">File history</a>
-  </div>
   {{- end -}}
 
   <!-- Post Nav -->
