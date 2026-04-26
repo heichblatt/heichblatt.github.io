@@ -1,0 +1,52 @@
+{{ if .Store.Get "hasMermaid" }}
+<style>
+  .mermaid { cursor: pointer; display: block; overflow-x: auto; }
+  .mermaid .cluster-label text { font-weight: bold; font-size: 15px; }
+  dialog.mermaid-lightbox {
+    width: 95vw;
+    height: 95vh;
+    max-width: 95vw;
+    max-height: 95vh;
+    overflow: auto;
+    padding: 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.25);
+  }
+  dialog.mermaid-lightbox::backdrop { background: rgba(0,0,0,0.5); }
+  dialog.mermaid-lightbox svg { display: block; }
+</style>
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: false, theme: 'neutral', flowchart: { htmlLabels: false, nodeSpacing: 50, rankSpacing: 100 } });
+  await mermaid.run();
+
+  document.querySelectorAll('.mermaid').forEach(el => {
+    const svg = el.querySelector('svg');
+    if (!svg) return;
+
+    const w = parseFloat(svg.getAttribute('width'));
+    const h = parseFloat(svg.getAttribute('height'));
+    if (w && h) {
+      el.style.maxWidth = (w / 2) + 'px';
+      svg.style.height = 'auto';
+    }
+
+    const dialog = document.createElement('dialog');
+    dialog.className = 'mermaid-lightbox';
+    document.body.appendChild(dialog);
+    dialog.addEventListener('click', () => dialog.close());
+
+    el.addEventListener('click', () => {
+      dialog.innerHTML = '';
+      const clone = svg.cloneNode(true);
+      if (w && h) {
+        clone.setAttribute('width', w);
+        clone.setAttribute('height', h);
+      }
+      dialog.appendChild(clone);
+      dialog.showModal();
+    });
+  });
+</script>
+{{ end }}
