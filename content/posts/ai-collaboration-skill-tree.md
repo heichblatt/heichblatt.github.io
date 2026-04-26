@@ -16,13 +16,25 @@ RPG players know the skill tree. You don't max everything at once—you pick a p
 
 ```mermaid
 graph LR
-    F_MODE(["Foundation"]) --> L_MODE(["Lookup"]) --> W_MODE(["Workshop"]) --> C_MODE(["Companion"]) --> M_MODE(["Mission"])
+    F_MODE(["Foundation"]):::foundation_mode --> L_MODE(["Lookup"]):::lookup_mode --> W_MODE(["Workshop"]):::workshop_mode --> C_MODE(["Companion"]):::companion_mode --> M_MODE(["Mission"]):::mission_mode
 
-    F_MODE --> F1[AI Literacy] & F2[Prompt Construction]
-    L_MODE --> L1[Precision Querying] & L2[Output Validation] & L3[Search Routing]
-    W_MODE --> W1[Goal Articulation] & W2[Iterative Refinement] & W3[Role Framing] & W4[Session Architecture]
-    C_MODE --> C1[Context Architecture] & C2[Trust Calibration] & C3[Norm Encoding] & C4[Relationship Maintenance]
-    M_MODE --> M1[Task Decomposition] & M2[Success Criteria] & M3[Checkpoint Design] & M4[Risk Scoping]
+    F_MODE --> F1[AI Literacy]:::foundation_skill & F2[Prompt Construction]:::foundation_skill
+    L_MODE --> L1[Precision Querying]:::lookup_skill & L2[Output Validation]:::lookup_skill & L3[Search Routing]:::lookup_skill
+    W_MODE --> W1[Goal Articulation]:::workshop_skill & W2[Iterative Refinement]:::workshop_skill & W3[Role Framing]:::workshop_skill & W4[Session Architecture]:::workshop_skill
+    C_MODE --> C1[Context Architecture]:::companion_skill & C2[Trust Calibration]:::companion_skill & C3[Norm Encoding]:::companion_skill & C4[Relationship Maintenance]:::companion_skill
+    M_MODE --> M1[Task Decomposition]:::mission_skill & M2[Success Criteria]:::mission_skill & M3[Checkpoint Design]:::mission_skill & M4[Risk Scoping]:::mission_skill
+
+    classDef foundation_mode fill:#d1d5db,color:#374151,stroke:#9ca3af,stroke-width:2px
+    classDef lookup_mode fill:#bfdbfe,color:#1e40af,stroke:#3b82f6,stroke-width:2px
+    classDef workshop_mode fill:#a7f3d0,color:#065f46,stroke:#10b981,stroke-width:2px
+    classDef companion_mode fill:#e9d5ff,color:#581c87,stroke:#a855f7,stroke-width:2px
+    classDef mission_mode fill:#fecaca,color:#7f1d1d,stroke:#ef4444,stroke-width:2px
+
+    classDef foundation_skill fill:#f3f4f6,color:#374151
+    classDef lookup_skill fill:#eff6ff,color:#1e40af
+    classDef workshop_skill fill:#ecfdf5,color:#065f46
+    classDef companion_skill fill:#faf5ff,color:#581c87
+    classDef mission_skill fill:#fee2e2,color:#7f1d1d
 ```
 
 ## Reading the Tree
