@@ -76,4 +76,6 @@ Thanks to Jakob for the tip.
 
 ---
 
+**[See all posts in the AI Collaboration series →](/series/ai-collaboration/)**
+
 *This post was written in collaboration with Claude, implementing the Mission pattern described above.*

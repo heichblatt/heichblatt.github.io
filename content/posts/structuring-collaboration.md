@@ -118,4 +118,6 @@ Once again thanks to Jakob for helping me think.
 
 ---
 
+**[See all posts in the AI Collaboration series →](/series/ai-collaboration/)**
+
 *This post was written in collaboration with Claude, implementing the Workshop pattern described above.*

@@ -45,4 +45,6 @@ The infrastructure you build shapes which modes are available to you. And the mo
 
 ---
 
+**[See all posts in the AI Collaboration series →](/series/ai-collaboration/)**
+
 *This post was written in collaboration with Claude Sonnet, implementing the Workshop pattern described above.*
