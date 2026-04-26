@@ -7,6 +7,8 @@ tags:
     - comment
     - ai
     - ai-collaboration
+series:
+    - AI Collaboration
 ---
 *This post builds on [Structuring Collaboration](https://hanneseichblatt.de/posts/structuring-collaboration/), which defined four AI collaboration modes: Lookup, Workshop, Companion, and Mission.*
 
