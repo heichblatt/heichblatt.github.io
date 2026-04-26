@@ -1,5 +1,7 @@
 {{ if .Store.Get "hasMermaid" }}
 <style>
+  .mermaid { overflow-x: auto; }
+  .mermaid svg { min-width: 900px; width: 100%; height: auto; }
   .mermaid .cluster-label text { font-weight: bold; font-size: 15px; }
 </style>
 <script type="module">
