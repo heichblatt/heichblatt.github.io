@@ -95,7 +95,7 @@ The skill tree is a shared language for assessing where individuals are and desi
 
 **Design progressions, not events.** The tree tells you what to teach first. Foundation before Lookup. Output Validation before Goal Articulation. Session Architecture before Context Architecture. One-day AI workshops that skip the prerequisites don't build skills; they build confusion.
 
-**Track capability, not tooling.** Which tools people use is secondary. Which nodes in the tree they can reliably execute is what determines what's possible.
+**Track capability, not tooling.** [Which tools people use is secondary.](/posts/dont-fall-in-love-with-your-tools/) Which nodes in the tree they can reliably execute is what determines what's possible.
 
 ---
 
