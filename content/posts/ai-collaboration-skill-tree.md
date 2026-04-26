@@ -2,7 +2,6 @@
 title: "The AI Collaboration Skill Tree"
 date: 2026-04-26
 draft: false
-mermaid: true
 tags:
     - tech
     - comment
@@ -15,7 +14,7 @@ RPG players know the skill tree. You don't max everything at once—you pick a p
 
 ## The Tree
 
-{{< mermaid >}}
+```mermaid
 graph TD
     subgraph Foundation
         F1[AI Literacy] --> F2[Prompt Construction]
@@ -63,7 +62,7 @@ graph TD
     class W1,W2,W3,W4 workshop
     class C1,C2,C3,C4 companion
     class M1,M2,M3,M4 mission
-{{< /mermaid >}}
+```
 
 ## Reading the Tree
 
