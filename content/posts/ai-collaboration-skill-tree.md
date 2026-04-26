@@ -6,7 +6,8 @@ tags:
     - tech
     - comment
     - ai
-    - ai-collaboration
+series:
+    - AI Collaboration
 ---
 
 Previous posts established the [four collaboration patterns](/posts/four-modes-of-ai-collaboration/) and mapped [how organizations onboard agent colleagues](/posts/structuring-collaboration/). What's missing is the individual's instrument: a map of where you are, what's locked, what to unlock next.

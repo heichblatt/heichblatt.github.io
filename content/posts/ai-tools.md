@@ -5,6 +5,9 @@ draft: true
 tags:
     - tech
     - comment
+    - ai
+series:
+    - AI Collaboration
 ---
 
 # Browsers
