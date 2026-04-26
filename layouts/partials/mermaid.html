@@ -28,8 +28,8 @@
     const w = parseFloat(svg.getAttribute('width'));
     const h = parseFloat(svg.getAttribute('height'));
     if (w && h) {
-      svg.setAttribute('width', w / 2);
-      svg.setAttribute('height', h / 2);
+      el.style.maxWidth = (w / 2) + 'px';
+      svg.style.height = 'auto';
     }
 
     const dialog = document.createElement('dialog');
