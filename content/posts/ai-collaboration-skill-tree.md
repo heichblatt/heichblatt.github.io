@@ -8,9 +8,9 @@ tags:
     - ai
 ---
 
-Previous posts established the [four collaboration patterns](/posts/four-modes-of-ai-collaboration/) and mapped [how organizations onboard agent colleagues by team and career level](/posts/structuring-collaboration/). What's still missing is the individual's instrument: a map of where you are, what's locked, and what to unlock next.
+Previous posts established the [four collaboration patterns](/posts/four-modes-of-ai-collaboration/) and mapped [how organizations onboard agent colleagues](/posts/structuring-collaboration/). What's missing is the individual's instrument: a map of where you are, what's locked, what to unlock next.
 
-RPG players know the skill tree. You don't max everything at once—you pick a path, invest points, unlock gates, and specialize. The design encodes prerequisites. You can't cast fireball until you've mastered spark. The tree tells you what to learn, in what order, and what becomes possible as you develop. AI adoption needs the same structure.
+RPG players know the skill tree. You pick a path, invest points, unlock gates, specialize. Prerequisites are encoded—no fireball until you've mastered spark. The tree tells you what to learn, in what order, and what becomes possible. AI adoption needs the same structure.
 
 ## The Tree
 
@@ -39,39 +39,39 @@ graph LR
 
 ## Reading the Tree
 
-**Foundation** is the prerequisite for everything else. **AI Literacy** means knowing how language models actually work—not the math, but the failure modes: what hallucination looks like, where the model is confident versus where it's extrapolating, why prompt structure matters. **Prompt Construction** is the companion skill: translating that understanding into queries that actually get you what you need.
+**Foundation** is the prerequisite for everything else. **AI Literacy** means knowing how language models actually work—not the math, but the failure modes: what hallucination looks like, where the model is confident versus extrapolating, why prompt structure matters. **Prompt Construction** translates that understanding into queries that get what you need.
 
-**Lookup** is the first pattern. **Precision Querying** is the core skill: scoping a question so completely that a single exchange gets you what you need. **Output Validation** follows—evaluating the response critically, not just accepting it. **Search Routing** is the advanced Lookup skill: knowing which model or tool fits which type of query. This sounds obvious until you're routing everything through your most expensive option by default.
+**Lookup** is the first pattern. **Precision Querying**: scoping a question completely enough that one exchange suffices. **Output Validation** follows—evaluating responses critically, not just accepting them. **Search Routing**: matching model or tool to query type. Sounds obvious until you're routing everything through your most expensive option by default.
 
-**Workshop** requires a different kind of articulation. **Goal Articulation**—describing what "done" looks like without specifying every step—is the unlock. Without it, you're still in Lookup mode regardless of how long the session runs. From there: **Iterative Refinement** (steering through multiple rounds without losing direction), **Role Framing** (positioning the agent appropriately for the task: reviewer, implementer, adversarial critic), and **Session Architecture** (structuring a complex collaborative session deliberately rather than letting it drift).
+**Workshop** requires a different articulation. **Goal Articulation**—describing "done" without specifying every step—is the unlock. Without it, you're still in Lookup regardless of session length. Then: **Iterative Refinement** (steering through rounds without losing direction), **Role Framing** (positioning the agent: reviewer, implementer, adversarial critic), and **Session Architecture** (structuring complex sessions deliberately rather than letting them drift).
 
-**Companion** requires the Workshop skills around framing and structure, not just iteration. The core Companion skill is **Context Architecture**: building persistent context that works—CLAUDE.md files, system prompts, knowledge libraries that an agent inherits. **Trust Calibration** is where most people underinvest: genuinely mapping where an agent colleague is reliable and where they aren't, and adjusting accordingly. **Norm Encoding** follows: translating team standards into reusable agent instructions. **Relationship Maintenance** keeps the accumulated context accurate as things change.
+**Companion** needs Workshop's framing and structure, not just iteration. **Context Architecture** is core: persistent context that works—CLAUDE.md files, system prompts, knowledge libraries an agent inherits. **Trust Calibration** is where most underinvest: mapping where the agent is reliable and where it isn't, then adjusting. **Norm Encoding** follows: team standards as reusable agent instructions. **Relationship Maintenance** keeps accumulated context accurate as things change.
 
-**Mission** requires Trust Calibration and Relationship Maintenance from the Companion branch. You can't safely delegate autonomously until you know where the agent will make good judgments. **Task Decomposition** means breaking complex goals into well-scoped autonomous sub-tasks. **Success Criteria** means specifying what "done" looks like precisely enough for autonomous execution. **Checkpoint Design** means knowing when to interrupt versus when to let the agent run. **Risk Scoping** closes the loop: pre-scoping the agent's authority before you send it off, not after it does something you didn't intend.
+**Mission** requires Trust Calibration and Relationship Maintenance. You can't safely delegate autonomously until you know where the agent makes good judgments. **Task Decomposition**: breaking complex goals into well-scoped autonomous sub-tasks. **Success Criteria**: specifying "done" precisely enough for autonomous execution. **Checkpoint Design**: knowing when to interrupt versus let the agent run. **Risk Scoping** closes the loop—pre-scoping the agent's authority before sending it off, not after something unintended.
 
 ## The Pattern in the Tree
 
-The tree encodes an insight that isn't obvious until you draw it: as you progress, the level of abstraction at which you engage rises.
+The tree encodes an insight that isn't obvious until you draw it: as you progress, the level of abstraction rises.
 
-In Lookup, you specify everything. In Workshop, you specify a goal. In Companion, accumulated context fills in gaps you no longer need to articulate. In Mission, you operate at the level of intent.
+In Lookup, you specify everything. In Workshop, a goal. In Companion, accumulated context fills the gaps. In Mission, you operate at the level of intent.
 
-This is why you can't skip levels. It isn't bureaucracy. Each pattern requires genuinely mastering the abstraction of the one before. Someone who skips Companion and goes straight to Mission is typically someone who hasn't calibrated trust—they don't know where to set checkpoints because they've never mapped where the agent is reliable. They don't get Mission outcomes; they get Mission-shaped chaos.
+That's why you can't skip levels—it isn't bureaucracy. Each pattern requires mastering the abstraction of the one before. Skip Companion for Mission and you typically haven't calibrated trust: you don't know where to set checkpoints because you've never mapped where the agent is reliable. You don't get Mission outcomes; you get Mission-shaped chaos.
 
 ## How Organizations Use This
 
-The skill tree is a shared language for assessing where individuals are and designing what comes next. Applied at the team level:
+The tree is shared language for assessing where individuals are and designing what's next. At team level:
 
-**Assess honestly.** Where are people, actually? Most teams are heavy on Lookup with some Workshop, and sparse beyond that. The distribution matters more than the average.
+**Assess honestly.** Where are people, actually? Most teams are heavy on Lookup, some Workshop, sparse beyond. The distribution matters more than the average.
 
-**Find the bottleneck.** It's usually Goal Articulation. People who haven't learned to specify "done" without specifying every step can't get into Workshop mode effectively—regardless of how capable the underlying model is.
+**Find the bottleneck.** Usually Goal Articulation. People who can't specify "done" without specifying every step never get into Workshop, regardless of model capability.
 
-**Design progressions, not events.** The tree tells you what to teach first. Foundation before Lookup. Output Validation before Goal Articulation. Session Architecture before Context Architecture. One-day AI workshops that skip the prerequisites don't build skills; they build confusion.
+**Design progressions, not events.** The tree tells you what to teach first: Foundation before Lookup, Output Validation before Goal Articulation, Session Architecture before Context Architecture. One-day workshops that skip prerequisites don't build skills; they build confusion.
 
-**Track capability, not tooling.** [Which tools people use is secondary.](/posts/dont-fall-in-love-with-your-tools/) Which nodes in the tree they can reliably execute is what determines what's possible.
+**Track capability, not tooling.** [Which tools people use is secondary.](/posts/dont-fall-in-love-with-your-tools/) Which nodes they can reliably execute determines what's possible.
 
 ---
 
-One thing the tree doesn't show: the org-level skills that run alongside individual progression. Standards Curation, Adoption Coaching, Infrastructure Design—these live at the team and architect level, and they're what make individual skill development compound across an organization rather than staying local. That's a separate tree, and a future post.
+One thing the tree doesn't show: the org-level skills running alongside individual progression. Standards Curation, Adoption Coaching, Infrastructure Design live at the team and architect level. They're what makes individual skill development compound across an organization rather than staying local. A separate tree, a future post.
 
 ---
 
