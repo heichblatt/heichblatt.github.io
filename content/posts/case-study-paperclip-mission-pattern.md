@@ -1,11 +1,12 @@
 ---
-title: "Paperclip: The Mission Pattern in Practice"
-date: 2026-04-25
+title: "Case Study Paperclip: The Mission Pattern in Practice"
+date: 2026-04-26
 draft: false
 tags:
     - tech
     - comment
     - ai
+    - ai-collaboration
 ---
 *This post builds on [Structuring Collaboration](https://hanneseichblatt.de/posts/structuring-collaboration/), which defined four AI collaboration modes: Lookup, Workshop, Companion, and Mission.*
 
