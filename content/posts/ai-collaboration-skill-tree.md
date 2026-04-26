@@ -1,5 +1,5 @@
 ---
-title: "The AI Collaboration Skill Tree"
+title: "Towards an AI Collaboration Skill Tree"
 date: 2026-04-26
 draft: false
 tags:
