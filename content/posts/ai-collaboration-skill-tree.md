@@ -15,7 +15,7 @@ RPG players know the skill tree. You don't max everything at once—you pick a p
 
 ## The Tree
 
-<div class="mermaid">
+{{< mermaid >}}
 graph TD
     subgraph FOUNDATION["Foundation"]
         F1[AI Literacy] --> F2[Prompt Construction]
@@ -63,7 +63,7 @@ graph TD
     class W1,W2,W3,W4 workshop
     class C1,C2,C3,C4 companion
     class M1,M2,M3,M4 mission
-</div>
+{{< /mermaid >}}
 
 ## Reading the Tree
 
