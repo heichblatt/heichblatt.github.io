@@ -80,4 +80,6 @@ Once again thanks to Jakob, this time for the inspiration to use skill trees in 
 
 *Part of a series on AI adoption. See also: [Four Modes of AI Collaboration](/posts/four-modes-of-ai-collaboration/) and [Structuring Collaboration: AI Adoption as Agentic Onboarding](/posts/structuring-collaboration/).*
 
+**[See all posts in the AI Collaboration series →](/series/ai-collaboration/)**
+
 *Written in collaboration with Claude, implementing the Workshop pattern described above.*
