@@ -25,6 +25,10 @@
 
     const w = parseFloat(svg.getAttribute('width'));
     const h = parseFloat(svg.getAttribute('height'));
+    if (w && h) {
+      svg.setAttribute('width', w / 2);
+      svg.setAttribute('height', h / 2);
+    }
 
     const dialog = document.createElement('dialog');
     dialog.className = 'mermaid-lightbox';
@@ -35,8 +39,8 @@
       dialog.innerHTML = '';
       const clone = svg.cloneNode(true);
       if (w && h) {
-        clone.setAttribute('width', w * 2);
-        clone.setAttribute('height', h * 2);
+        clone.setAttribute('width', w);
+        clone.setAttribute('height', h);
       }
       dialog.appendChild(clone);
       dialog.showModal();
