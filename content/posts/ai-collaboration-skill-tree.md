@@ -15,38 +15,14 @@ RPG players know the skill tree. You don't max everything at once—you pick a p
 ## The Tree
 
 ```mermaid
-graph TD
-    START(["Start"])
+graph LR
+    F_MODE(["Foundation"]):::foundation_mode --> L_MODE(["Lookup"]):::lookup_mode --> W_MODE(["Workshop"]):::workshop_mode --> C_MODE(["Companion"]):::companion_mode --> M_MODE(["Mission"]):::mission_mode
 
-    F1[AI Literacy] --> F2[Prompt Construction]
-    F2 --> F_MODE(["Foundation"]):::foundation_mode
-
-    L1[Precision Querying] --> L2[Output Validation]
-    L2 --> L3[Search Routing]
-    L3 --> L_MODE(["Lookup"]):::lookup_mode
-
-    W1[Goal Articulation] --> W2[Iterative Refinement]
-    W2 --> W3[Role Framing]
-    W3 --> W4[Session Architecture]
-    W4 --> W_MODE(["Workshop"]):::workshop_mode
-
-    C1[Context Architecture] --> C2[Trust Calibration]
-    C1 --> C3[Norm Encoding]
-    C2 --> C4[Relationship Maintenance]
-    C3 --> C4
-    C4 --> C_MODE(["Companion"]):::companion_mode
-
-    M1[Task Decomposition] --> M2[Success Criteria]
-    M1 --> M3[Checkpoint Design]
-    M2 --> M4[Risk Scoping]
-    M3 --> M4
-    M4 --> M_MODE(["Mission"]):::mission_mode
-
-    START --> F1
-    F_MODE --> L1
-    L_MODE --> W1
-    W_MODE --> C1
-    C_MODE --> M1
+    F_MODE --> F1[AI Literacy] & F2[Prompt Construction]
+    L_MODE --> L1[Precision Querying] & L2[Output Validation] & L3[Search Routing]
+    W_MODE --> W1[Goal Articulation] & W2[Iterative Refinement] & W3[Role Framing] & W4[Session Architecture]
+    C_MODE --> C1[Context Architecture] & C2[Trust Calibration] & C3[Norm Encoding] & C4[Relationship Maintenance]
+    M_MODE --> M1[Task Decomposition] & M2[Success Criteria] & M3[Checkpoint Design] & M4[Risk Scoping]
 
     classDef foundation fill:#e5e7eb,color:#1f2937,stroke:#9ca3af
     classDef lookup fill:#dbeafe,color:#1e40af,stroke:#93c5fd
