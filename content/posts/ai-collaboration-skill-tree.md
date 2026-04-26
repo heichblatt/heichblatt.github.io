@@ -15,7 +15,7 @@ RPG players know the skill tree. You don't max everything at once—you pick a p
 ## The Tree
 
 ```mermaid
-graph LR
+graph TD
     subgraph Foundation
         F1[AI Literacy] --> F2[Prompt Construction]
     end
