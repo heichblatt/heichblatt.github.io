@@ -3,10 +3,6 @@
 {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections -}}
 {{- $paginator := .Paginate $pages -}}
 
-{{- if and .Content (eq $paginator.PageNumber 1) -}}
-<div class="mb-12">{{- .Content -}}</div>
-{{- end -}}
-
 {{- range $index, $page := $paginator.Pages -}}
 
 {{- if and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) -}}
@@ -26,6 +22,7 @@
   {{- end -}}
 </div>
 {{- end -}}
+{{- if $.Content -}}<div class="mb-12">{{- $.Content -}}</div>{{- end -}}
 {{- end -}}
 
 <section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0">
