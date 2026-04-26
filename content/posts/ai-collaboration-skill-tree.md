@@ -16,31 +16,13 @@ RPG players know the skill tree. You don't max everything at once—you pick a p
 
 ```mermaid
 graph LR
-    F_MODE(["Foundation"]):::foundation_mode --> L_MODE(["Lookup"]):::lookup_mode --> W_MODE(["Workshop"]):::workshop_mode --> C_MODE(["Companion"]):::companion_mode --> M_MODE(["Mission"]):::mission_mode
+    F_MODE(["Foundation"]) --> L_MODE(["Lookup"]) --> W_MODE(["Workshop"]) --> C_MODE(["Companion"]) --> M_MODE(["Mission"])
 
     F_MODE --> F1[AI Literacy] & F2[Prompt Construction]
     L_MODE --> L1[Precision Querying] & L2[Output Validation] & L3[Search Routing]
     W_MODE --> W1[Goal Articulation] & W2[Iterative Refinement] & W3[Role Framing] & W4[Session Architecture]
     C_MODE --> C1[Context Architecture] & C2[Trust Calibration] & C3[Norm Encoding] & C4[Relationship Maintenance]
     M_MODE --> M1[Task Decomposition] & M2[Success Criteria] & M3[Checkpoint Design] & M4[Risk Scoping]
-
-    classDef foundation fill:#e5e7eb,color:#1f2937,stroke:#9ca3af
-    classDef lookup fill:#dbeafe,color:#1e40af,stroke:#93c5fd
-    classDef workshop fill:#d1fae5,color:#065f46,stroke:#6ee7b7
-    classDef companion fill:#f3e8ff,color:#581c87,stroke:#c084fc
-    classDef mission fill:#fee2e2,color:#7f1d1d,stroke:#fca5a5
-
-    classDef foundation_mode fill:#6b7280,color:#fff,stroke:#374151
-    classDef lookup_mode fill:#3b82f6,color:#fff,stroke:#1d4ed8
-    classDef workshop_mode fill:#10b981,color:#fff,stroke:#059669
-    classDef companion_mode fill:#a855f7,color:#fff,stroke:#7e22ce
-    classDef mission_mode fill:#ef4444,color:#fff,stroke:#b91c1c
-
-    class F1,F2 foundation
-    class L1,L2,L3 lookup
-    class W1,W2,W3,W4 workshop
-    class C1,C2,C3,C4 companion
-    class M1,M2,M3,M4 mission
 ```
 
 ## Reading the Tree
