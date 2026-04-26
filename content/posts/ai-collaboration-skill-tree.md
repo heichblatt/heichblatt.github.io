@@ -51,11 +51,11 @@ graph TD
     C2 --> M1
     C4 --> M1
 
-    classDef foundation fill:#374151,color:#f9fafb,stroke:#6b7280
-    classDef lookup fill:#1e3a5f,color:#bfdbfe,stroke:#3b82f6
-    classDef workshop fill:#064e3b,color:#a7f3d0,stroke:#10b981
-    classDef companion fill:#3b0764,color:#e9d5ff,stroke:#a855f7
-    classDef mission fill:#450a0a,color:#fecaca,stroke:#ef4444
+    classDef foundation fill:#e5e7eb,color:#1f2937,stroke:#9ca3af
+    classDef lookup fill:#dbeafe,color:#1e40af,stroke:#93c5fd
+    classDef workshop fill:#d1fae5,color:#065f46,stroke:#6ee7b7
+    classDef companion fill:#f3e8ff,color:#581c87,stroke:#c084fc
+    classDef mission fill:#fee2e2,color:#7f1d1d,stroke:#fca5a5
 
     class F1,F2 foundation
     class L1,L2,L3 lookup
