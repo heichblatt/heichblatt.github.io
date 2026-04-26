@@ -73,6 +73,8 @@ The tree is shared language for assessing where individuals are and designing wh
 
 One thing the tree doesn't show: the org-level skills running alongside individual progression. Standards Curation, Adoption Coaching, Infrastructure Design live at the team and architect level. They're what makes individual skill development compound across an organization rather than staying local. A separate tree, a future post.
 
+Once again thanks to Jakob, this time for the inspiration to use skill trees in thinking about organizations.
+
 ---
 
 *Part of a series on AI adoption. See also: [Four Modes of AI Collaboration](/posts/four-modes-of-ai-collaboration/) and [Structuring Collaboration: AI Adoption as Agentic Onboarding](/posts/structuring-collaboration/).*
