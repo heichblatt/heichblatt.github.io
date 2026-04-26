@@ -17,29 +17,29 @@ RPG players know the skill tree. You don't max everything at once—you pick a p
 
 {{< mermaid >}}
 graph TD
-    subgraph FOUNDATION["Foundation"]
+    subgraph Foundation
         F1[AI Literacy] --> F2[Prompt Construction]
     end
 
-    subgraph LOOKUP["Lookup"]
+    subgraph Lookup
         L1[Precision Querying] --> L2[Output Validation]
         L2 --> L3[Search Routing]
     end
 
-    subgraph WORKSHOP["Workshop"]
+    subgraph Workshop
         W1[Goal Articulation] --> W2[Iterative Refinement]
         W2 --> W3[Role Framing]
         W3 --> W4[Session Architecture]
     end
 
-    subgraph COMPANION["Companion"]
+    subgraph Companion
         C1[Context Architecture] --> C2[Trust Calibration]
         C1 --> C3[Norm Encoding]
         C2 --> C4[Relationship Maintenance]
         C3 --> C4
     end
 
-    subgraph MISSION["Mission"]
+    subgraph Mission
         M1[Task Decomposition] --> M2[Success Criteria]
         M1 --> M3[Checkpoint Design]
         M2 --> M4[Risk Scoping]
