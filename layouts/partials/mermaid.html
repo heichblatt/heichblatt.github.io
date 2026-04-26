@@ -3,8 +3,10 @@
   .mermaid { cursor: pointer; display: block; overflow-x: auto; }
   .mermaid .cluster-label text { font-weight: bold; font-size: 15px; }
   dialog.mermaid-lightbox {
-    max-width: 90vw;
-    max-height: 90vh;
+    width: 95vw;
+    height: 95vh;
+    max-width: 95vw;
+    max-height: 95vh;
     overflow: auto;
     padding: 1.5rem;
     border: none;
@@ -12,7 +14,7 @@
     box-shadow: 0 25px 50px rgba(0,0,0,0.25);
   }
   dialog.mermaid-lightbox::backdrop { background: rgba(0,0,0,0.5); }
-  dialog.mermaid-lightbox svg { width: 100%; height: auto; display: block; }
+  dialog.mermaid-lightbox svg { display: block; }
 </style>
 <script type="module">
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
