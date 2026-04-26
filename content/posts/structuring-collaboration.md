@@ -6,7 +6,8 @@ tags:
   - tech
   - comment
   - ai
-  - ai-collaboration
+series:
+  - AI Collaboration
 ---
 
 You're leading a medium-sized tech organization -- 200-500 people across development, operations, analytics, and professional services. Your organization has decided to adopt AI capabilities strategically, not in a panic.
