@@ -69,8 +69,6 @@ The tree is shared language for assessing where individuals are and designing wh
 
 **Track capability, not tooling.** [Which tools people use is secondary.](/posts/dont-fall-in-love-with-your-tools/) Which nodes they can reliably execute determines what's possible.
 
----
-
 One thing the tree doesn't show: the org-level skills running alongside individual progression. Standards Curation, Adoption Coaching, Infrastructure Design live at the team and architect level. They're what makes individual skill development compound across an organization rather than staying local. A separate tree, a future post.
 
 Once again thanks to Jakob, this time for the inspiration to use skill trees in thinking about organizations.
