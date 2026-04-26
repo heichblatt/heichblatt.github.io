@@ -15,53 +15,30 @@ RPG players know the skill tree. You don't max everything at once—you pick a p
 ## The Tree
 
 ```mermaid
-graph TD
-    subgraph Foundation
-        F1[AI Literacy] --> F2[Prompt Construction]
-    end
-
-    subgraph Lookup
-        L1[Precision Querying] --> L2[Output Validation]
-        L2 --> L3[Search Routing]
-    end
-
-    subgraph Workshop
-        W1[Goal Articulation] --> W2[Iterative Refinement]
-        W2 --> W3[Role Framing]
-        W3 --> W4[Session Architecture]
-    end
-
-    subgraph Companion
-        C1[Context Architecture] --> C2[Trust Calibration]
-        C1 --> C3[Norm Encoding]
-        C2 --> C4[Relationship Maintenance]
-        C3 --> C4
-    end
-
-    subgraph Mission
-        M1[Task Decomposition] --> M2[Success Criteria]
-        M1 --> M3[Checkpoint Design]
-        M2 --> M4[Risk Scoping]
-        M3 --> M4
-    end
-
-    F2 --> L1
-    L2 --> W1
-    W4 --> C1
-    C2 --> M1
-    C4 --> M1
-
-    classDef foundation fill:#e5e7eb,color:#1f2937,stroke:#9ca3af
-    classDef lookup fill:#dbeafe,color:#1e40af,stroke:#93c5fd
-    classDef workshop fill:#d1fae5,color:#065f46,stroke:#6ee7b7
-    classDef companion fill:#f3e8ff,color:#581c87,stroke:#c084fc
-    classDef mission fill:#fee2e2,color:#7f1d1d,stroke:#fca5a5
-
-    class F1,F2 foundation
-    class L1,L2,L3 lookup
-    class W1,W2,W3,W4 workshop
-    class C1,C2,C3,C4 companion
-    class M1,M2,M3,M4 mission
+mindmap
+  root((AI Collaboration))
+    Foundation
+      AI Literacy
+      Prompt Construction
+    Lookup
+      Precision Querying
+      Output Validation
+      Search Routing
+    Workshop
+      Goal Articulation
+      Iterative Refinement
+      Role Framing
+      Session Architecture
+    Companion
+      Context Architecture
+      Trust Calibration
+      Norm Encoding
+      Relationship Maintenance
+    Mission
+      Task Decomposition
+      Success Criteria
+      Checkpoint Design
+      Risk Scoping
 ```
 
 ## Reading the Tree
