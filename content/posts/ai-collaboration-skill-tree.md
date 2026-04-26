@@ -18,39 +18,29 @@ RPG players know the skill tree. You don't max everything at once—you pick a p
 graph TD
     START(["Start"])
 
-    subgraph Foundation
-        F1[AI Literacy] --> F2[Prompt Construction]
-        F2 --> F_MODE(["Foundation"]):::foundation_mode
-    end
+    F1[AI Literacy] --> F2[Prompt Construction]
+    F2 --> F_MODE(["Foundation"]):::foundation_mode
 
-    subgraph Lookup
-        L1[Precision Querying] --> L2[Output Validation]
-        L2 --> L3[Search Routing]
-        L3 --> L_MODE(["Lookup"]):::lookup_mode
-    end
+    L1[Precision Querying] --> L2[Output Validation]
+    L2 --> L3[Search Routing]
+    L3 --> L_MODE(["Lookup"]):::lookup_mode
 
-    subgraph Workshop
-        W1[Goal Articulation] --> W2[Iterative Refinement]
-        W2 --> W3[Role Framing]
-        W3 --> W4[Session Architecture]
-        W4 --> W_MODE(["Workshop"]):::workshop_mode
-    end
+    W1[Goal Articulation] --> W2[Iterative Refinement]
+    W2 --> W3[Role Framing]
+    W3 --> W4[Session Architecture]
+    W4 --> W_MODE(["Workshop"]):::workshop_mode
 
-    subgraph Companion
-        C1[Context Architecture] --> C2[Trust Calibration]
-        C1 --> C3[Norm Encoding]
-        C2 --> C4[Relationship Maintenance]
-        C3 --> C4
-        C4 --> C_MODE(["Companion"]):::companion_mode
-    end
+    C1[Context Architecture] --> C2[Trust Calibration]
+    C1 --> C3[Norm Encoding]
+    C2 --> C4[Relationship Maintenance]
+    C3 --> C4
+    C4 --> C_MODE(["Companion"]):::companion_mode
 
-    subgraph Mission
-        M1[Task Decomposition] --> M2[Success Criteria]
-        M1 --> M3[Checkpoint Design]
-        M2 --> M4[Risk Scoping]
-        M3 --> M4
-        M4 --> M_MODE(["Mission"]):::mission_mode
-    end
+    M1[Task Decomposition] --> M2[Success Criteria]
+    M1 --> M3[Checkpoint Design]
+    M2 --> M4[Risk Scoping]
+    M3 --> M4
+    M4 --> M_MODE(["Mission"]):::mission_mode
 
     START --> F1
     F_MODE --> L1
